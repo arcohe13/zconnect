@@ -1,0 +1,192 @@
+{
+  "type" : "object",
+  "properties" : {
+    "COMMAREA_BSF5136P" : {
+      "type" : "object",
+      "properties" : {
+        "HEADER_ENTRADA" : {
+          "type" : "object",
+          "properties" : {
+            "IDENTIFICADOR_UNICO_GLOBAL" : {
+              "maxLength" : 250,
+              "type" : "string"
+            },
+            "IDENTIFICACION_CANAL" : {
+              "maxLength" : 4,
+              "type" : "string"
+            },
+            "SIGLA_APLICACION" : {
+              "maxLength" : 3,
+              "type" : "string"
+            },
+            "IDENTIFICACION_USUARIO" : {
+              "maxLength" : 10,
+              "type" : "string"
+            },
+            "DIRECCION_IP_CONSUMIDOR" : {
+              "maxLength" : 20,
+              "type" : "string"
+            },
+            "DIRECCION_IP_CLIENTE" : {
+              "maxLength" : 20,
+              "type" : "string"
+            },
+            "FECHA_ENVIO_MENSAJE" : {
+              "maxLength" : 8,
+              "type" : "string"
+            },
+            "HORA_ENVIO_MENSAJE" : {
+              "maxLength" : 10,
+              "type" : "string"
+            },
+            "ATRIBUTO_PAGINEO" : {
+              "maxLength" : 10,
+              "type" : "string"
+            },
+            "CLAVE_BUSQUEDA" : {
+              "maxLength" : 250,
+              "type" : "string"
+            },
+            "CANTIDAD_REGISTROS" : {
+              "minimum" : 0,
+              "maximum" : 999999999,
+              "type" : "integer"
+            }
+          }
+        },
+        "BODY_ENTRADA_GENERAR_CHEQUERAS" : {
+          "type" : "object",
+          "properties" : {
+            "CODIGO_TRANSACCION" : {
+              "maxLength" : 6,
+              "type" : "string"
+            },
+            "INDICADOR_REVERSO" : {
+              "maxLength" : 1,
+              "type" : "string"
+            },
+            "NUMERO_TERMINAL" : {
+              "maxLength" : 4,
+              "type" : "string"
+            },
+            "CODIGO_SUBCANAL" : {
+              "minimum" : 0,
+              "maximum" : 99,
+              "type" : "integer"
+            },
+            "TIPO_CUENTA" : {
+              "maxLength" : 2,
+              "type" : "string"
+            },
+            "NUMERO_CUENTA" : {
+              "maxLength" : 20,
+              "type" : "string"
+            },
+            "CANTIDAD_CHEQUES" : {
+              "minimum" : 0,
+              "maximum" : 99,
+              "type" : "integer"
+            },
+            "PRIMER_SERIAL_CHEQUERA" : {
+              "minimum" : 0,
+              "maximum" : 99999999,
+              "type" : "integer"
+            }
+          }
+        },
+        "HEADER_SALIDA" : {
+          "type" : "object",
+          "properties" : {
+            "TIPO_MENSAJE" : {
+              "maxLength" : 1,
+              "type" : "string"
+            },
+            "MENSAJE_PROGRAMADOR_SISTEMA" : {
+              "maxLength" : 250,
+              "type" : "string"
+            },
+            "CODIGO_MENSAJE_PROGRAMADOR" : {
+              "maxLength" : 4,
+              "type" : "string"
+            },
+            "MENSAJE_USUARIO" : {
+              "maxLength" : 250,
+              "type" : "string"
+            },
+            "CODIGO_MENSAJE_USUARIO" : {
+              "maxLength" : 4,
+              "type" : "string"
+            },
+            "FECHA_SALIDA_MENSAJE" : {
+              "maxLength" : 8,
+              "type" : "string"
+            },
+            "HORA_SALIDA_MENSAJE" : {
+              "maxLength" : 10,
+              "type" : "string"
+            }
+          }
+        },
+        "BODY_SALIDA_GENERAR_CHEQUERAS" : {
+          "type" : "object",
+          "properties" : {
+            "NUMERO_APROBACION" : {
+              "minimum" : 0,
+              "maximum" : 99999999,
+              "type" : "integer"
+            },
+            "MONTO_COMISION" : {
+              "multipleOf" : 0.01,
+              "minimum" : -9999999999999.99,
+              "maximum" : 9999999999999.99,
+              "type" : "number",
+              "format" : "decimal"
+            },
+            "NOMBRE_CLIENTE" : {
+              "maxLength" : 150,
+              "type" : "string"
+            },
+            "CODIGO_CUENTA_CLIENTE" : {
+              "maxLength" : 20,
+              "type" : "string"
+            },
+            "NOMBRE_OFICINA" : {
+              "maxLength" : 60,
+              "type" : "string"
+            },
+            "FECHA_SAFE" : {
+              "minimum" : 0,
+              "maximum" : 99999999,
+              "type" : "integer"
+            },
+            "CANTIDAD_CHEQUES" : {
+              "minimum" : 0,
+              "maximum" : 99,
+              "type" : "integer"
+            },
+            "SERIALES" : {
+              "type" : "array",
+              "maxItems" : 50,
+              "minItems" : 50,
+              "items" : {
+                "type" : "object",
+                "properties" : {
+                  "DIGITO_SEGURIDAD" : {
+                    "minimum" : 0,
+                    "maximum" : 99,
+                    "type" : "integer"
+                  },
+                  "SERIAL_CHEQUE" : {
+                    "minimum" : 0,
+                    "maximum" : 999999,
+                    "type" : "integer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

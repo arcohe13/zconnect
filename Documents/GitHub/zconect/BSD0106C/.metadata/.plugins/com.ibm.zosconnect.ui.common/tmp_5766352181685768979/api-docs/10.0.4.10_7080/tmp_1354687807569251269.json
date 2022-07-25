@@ -1,0 +1,188 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "",
+    "version" : "1.0.0",
+    "title" : "CalcularPinTddPanama"
+  },
+  "host" : "10.0.4.10:7080",
+  "basePath" : "/calcularpintddpanama",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/v01/calcularpintddpanama" : {
+      "post" : {
+        "tags" : [ "CalcularPinTddPanama" ],
+        "operationId" : "postCAU0308P",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "postCAU0308P_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postCAU0308P_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postCAU0308P_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "postCAU0308P_request" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_CAU0308P" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "IDENTIFICADOR_UNICO_GLOBAL" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "IDENTIFICACION_CANAL" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "SIGLA_APLICACION" : {
+                  "type" : "string",
+                  "maxLength" : 3
+                },
+                "IDENTIFICACION_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "DIRECCION_IP_CONSUMIDOR" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "DIRECCION_IP_CLIENTE" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "FECHA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "ATRIBUTO_PAGINEO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "CLAVE_BUSQUEDA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CANTIDAD_REGISTROS" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999
+                }
+              }
+            },
+            "BODY_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "CODIGO_ACCION" : {
+                  "type" : "string",
+                  "maxLength" : 2
+                },
+                "NRO_TARJETA_DEBITO" : {
+                  "type" : "string",
+                  "maxLength" : 16
+                },
+                "PIN_ANTERIOR" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "OFFSET" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postCAU0308P_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_CAU0308P" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "TIPO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "MENSAJE_PROGRAMADOR_SISTEMA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_PROGRAMADOR" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "FECHA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                }
+              }
+            },
+            "BODY_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "CODIGO_RESPUESTA" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 99
+                },
+                "RESULTADO" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 9999
+                },
+                "INFORMACION_ADICIONAL" : {
+                  "type" : "string",
+                  "maxLength" : 46
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

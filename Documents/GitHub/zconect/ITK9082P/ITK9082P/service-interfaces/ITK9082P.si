@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:message xmlns:ns2="http://www.ibm.com/ims/Transaction" transactionCode="" messageName="ITK9082P" direction="0" serviceType="CICS_COMM_AREA">
+    <message id="1" name="ITK9082P">
+        <segment id="1" name="COMMAREA" originalName="COMMAREA">
+            <field name="COMMAREA_ITK9082P" originalName="COMMAREA_ITK9082P" included="Y" path="COMMAREA_ITK9082P">
+                <startPos>1</startPos>
+                <bytes>1181</bytes>
+                <maxBytes>1181</maxBytes>
+                <applicationDatatype datatype="STRUCT"/>
+                <field name="HEADER_ENTRADA" originalName="HEADER_ENTRADA" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA">
+                    <startPos>1</startPos>
+                    <bytes>594</bytes>
+                    <maxBytes>594</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="IDENTIFICADOR_UNICO_GLOBAL" originalName="IDENTIFICADOR_UNICO_GLOBAL" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.IDENTIFICADOR_UNICO_GLOBAL">
+                        <startPos>1</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="IDENTIFICACION_CANAL" originalName="IDENTIFICACION_CANAL" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.IDENTIFICACION_CANAL">
+                        <startPos>251</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="SIGLA_APLICACION" originalName="SIGLA_APLICACION" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.SIGLA_APLICACION">
+                        <startPos>255</startPos>
+                        <bytes>3</bytes>
+                        <maxBytes>3</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="IDENTIFICACION_USUARIO" originalName="IDENTIFICACION_USUARIO" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.IDENTIFICACION_USUARIO">
+                        <startPos>258</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="DIRECCION_IP_CONSUMIDOR" originalName="DIRECCION_IP_CONSUMIDOR" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.DIRECCION_IP_CONSUMIDOR">
+                        <startPos>268</startPos>
+                        <bytes>20</bytes>
+                        <maxBytes>20</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="DIRECCION_IP_CLIENTE" originalName="DIRECCION_IP_CLIENTE" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.DIRECCION_IP_CLIENTE">
+                        <startPos>288</startPos>
+                        <bytes>20</bytes>
+                        <maxBytes>20</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="FECHA_ENVIO_MENSAJE" originalName="FECHA_ENVIO_MENSAJE" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.FECHA_ENVIO_MENSAJE">
+                        <startPos>308</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="HORA_ENVIO_MENSAJE" originalName="HORA_ENVIO_MENSAJE" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.HORA_ENVIO_MENSAJE">
+                        <startPos>316</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="ATRIBUTO_PAGINEO" originalName="ATRIBUTO_PAGINEO" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.ATRIBUTO_PAGINEO">
+                        <startPos>326</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CLAVE_BUSQUEDA" originalName="CLAVE_BUSQUEDA" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.CLAVE_BUSQUEDA">
+                        <startPos>336</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CANTIDAD_REGISTROS" originalName="CANTIDAD_REGISTROS" included="Y" path="COMMAREA_ITK9082P.HEADER_ENTRADA.CANTIDAD_REGISTROS">
+                        <startPos>586</startPos>
+                        <bytes>9</bytes>
+                        <maxBytes>9</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="9" scale="0"/>
+                    </field>
+                </field>
+                <field name="BODY_ENTRADA_VALIAR_CEDULA_CLI" originalName="BODY_ENTRADA_VALIAR_CEDULA_CLI" included="Y" path="COMMAREA_ITK9082P.BODY_ENTRADA_VALIAR_CEDULA_CLI">
+                    <startPos>595</startPos>
+                    <bytes>60</bytes>
+                    <maxBytes>60</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="SUB_CANAL" originalName="SUB_CANAL" included="Y" path="COMMAREA_ITK9082P.BODY_ENTRADA_VALIAR_CEDULA_CLI.SUB_CANAL">
+                        <startPos>595</startPos>
+                        <bytes>2</bytes>
+                        <maxBytes>2</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="2" scale="0"/>
+                    </field>
+                    <field name="CODIGO_AREA_AFILIADO" originalName="CODIGO_AREA_AFILIADO" included="Y" path="COMMAREA_ITK9082P.BODY_ENTRADA_VALIAR_CEDULA_CLI.CODIGO_AREA_AFILIADO">
+                        <startPos>597</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="8" scale="0"/>
+                    </field>
+                    <field name="NUMERO_TELEFONO_AFILIADO" originalName="NUMERO_TELEFONO_AFILIADO" included="Y" path="COMMAREA_ITK9082P.BODY_ENTRADA_VALIAR_CEDULA_CLI.NUMERO_TELEFONO_AFILIADO">
+                        <startPos>605</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="10" scale="0"/>
+                    </field>
+                    <field name="NUMERO_TARJETA" originalName="NUMERO_TARJETA" included="Y" path="COMMAREA_ITK9082P.BODY_ENTRADA_VALIAR_CEDULA_CLI.NUMERO_TARJETA">
+                        <startPos>615</startPos>
+                        <bytes>21</bytes>
+                        <maxBytes>21</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="TIPO_IDENTIFICACION" originalName="TIPO_IDENTIFICACION" included="Y" path="COMMAREA_ITK9082P.BODY_ENTRADA_VALIAR_CEDULA_CLI.TIPO_IDENTIFICACION">
+                        <startPos>636</startPos>
+                        <bytes>1</bytes>
+                        <maxBytes>1</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="NRO_IDENTIFICACION" originalName="NRO_IDENTIFICACION" included="Y" path="COMMAREA_ITK9082P.BODY_ENTRADA_VALIAR_CEDULA_CLI.NRO_IDENTIFICACION">
+                        <startPos>637</startPos>
+                        <bytes>15</bytes>
+                        <maxBytes>15</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="15" scale="0"/>
+                    </field>
+                    <field name="NACIONALIDAD_PAIS_ORIGEN" originalName="NACIONALIDAD_PAIS_ORIGEN" included="Y" path="COMMAREA_ITK9082P.BODY_ENTRADA_VALIAR_CEDULA_CLI.NACIONALIDAD_PAIS_ORIGEN">
+                        <startPos>652</startPos>
+                        <bytes>3</bytes>
+                        <maxBytes>3</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                </field>
+                <field name="HEADER_SALIDA" originalName="HEADER_SALIDA" included="Y" path="COMMAREA_ITK9082P.HEADER_SALIDA">
+                    <startPos>655</startPos>
+                    <bytes>527</bytes>
+                    <maxBytes>527</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="TIPO_MENSAJE" originalName="TIPO_MENSAJE" included="Y" path="COMMAREA_ITK9082P.HEADER_SALIDA.TIPO_MENSAJE">
+                        <startPos>655</startPos>
+                        <bytes>1</bytes>
+                        <maxBytes>1</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="MENSAJE_PROGRAMADOR_SISTEMA" originalName="MENSAJE_PROGRAMADOR_SISTEMA" included="Y" path="COMMAREA_ITK9082P.HEADER_SALIDA.MENSAJE_PROGRAMADOR_SISTEMA">
+                        <startPos>656</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CODIGO_MENSAJE_PROGRAMADOR" originalName="CODIGO_MENSAJE_PROGRAMADOR" included="Y" path="COMMAREA_ITK9082P.HEADER_SALIDA.CODIGO_MENSAJE_PROGRAMADOR">
+                        <startPos>906</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="MENSAJE_USUARIO" originalName="MENSAJE_USUARIO" included="Y" path="COMMAREA_ITK9082P.HEADER_SALIDA.MENSAJE_USUARIO">
+                        <startPos>910</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CODIGO_MENSAJE_USUARIO" originalName="CODIGO_MENSAJE_USUARIO" included="Y" path="COMMAREA_ITK9082P.HEADER_SALIDA.CODIGO_MENSAJE_USUARIO">
+                        <startPos>1160</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="FECHA_SALIDA_MENSAJE" originalName="FECHA_SALIDA_MENSAJE" included="Y" path="COMMAREA_ITK9082P.HEADER_SALIDA.FECHA_SALIDA_MENSAJE">
+                        <startPos>1164</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="HORA_SALIDA_MENSAJE" originalName="HORA_SALIDA_MENSAJE" included="Y" path="COMMAREA_ITK9082P.HEADER_SALIDA.HORA_SALIDA_MENSAJE">
+                        <startPos>1172</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                </field>
+            </field>
+        </segment>
+    </message>
+</ns2:message>

@@ -1,0 +1,185 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "",
+    "version" : "1.0.0",
+    "title" : "validarCuentaCliente"
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/itk9082p",
+  "schemes" : [ "https", "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/newPath1" : {
+      "post" : {
+        "tags" : [ "validarCuentaCliente" ],
+        "operationId" : "postITK9082P",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "postITK9082P_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postITK9082P_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postITK9082P_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "postITK9082P_request" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_ITK9082P" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "IDENTIFICADOR_UNICO_GLOBAL" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "IDENTIFICACION_CANAL" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "SIGLA_APLICACION" : {
+                  "type" : "string",
+                  "maxLength" : 3
+                },
+                "IDENTIFICACION_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "DIRECCION_IP_CONSUMIDOR" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "DIRECCION_IP_CLIENTE" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "FECHA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "ATRIBUTO_PAGINEO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "CLAVE_BUSQUEDA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CANTIDAD_REGISTROS" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999
+                }
+              }
+            },
+            "BODY_ENTRADA_VALIAR_CEDULA_CLI" : {
+              "type" : "object",
+              "properties" : {
+                "SUB_CANAL" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 99
+                },
+                "CODIGO_AREA_AFILIADO" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 99999999
+                },
+                "NUMERO_TELEFONO_AFILIADO" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 9999999999
+                },
+                "NUMERO_TARJETA" : {
+                  "type" : "string",
+                  "maxLength" : 21
+                },
+                "TIPO_IDENTIFICACION" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "NRO_IDENTIFICACION" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999999999
+                },
+                "NACIONALIDAD_PAIS_ORIGEN" : {
+                  "type" : "string",
+                  "maxLength" : 3
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postITK9082P_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_ITK9082P" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "TIPO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "MENSAJE_PROGRAMADOR_SISTEMA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_PROGRAMADOR" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "FECHA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

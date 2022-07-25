@@ -1,0 +1,6 @@
+#Equinox secure storage version 1.0
+#Thu Jul 14 15:22:24 VET 2022
+org.eclipse.equinox.security.preferences.version=1
+org.eclipse.equinox.security.preferences.cipher=PBEWithMD5AndDES
+org.eclipse.equinox.security.preferences.keyFactory=PBEWithMD5AndDES
+/connections/SHAREABLE_CREDENTIALS/1654872566913-1/b123595=org.eclipse.equinox.security.noModule\tlYbz1ZsJQ0U\=,qK2lYX4CZ/pnO64Lsp0b5Q\=\=

@@ -1,0 +1,10 @@
+com.ibm.ftt.cics.rse=NONE
+com.ibm.ftt.common.language.manager=NONE
+com.ibm.ftt.configurations.core=NONE
+com.ibm.ftt.properties=NONE
+com.ibm.ftt.resources.core=NONE
+com.ibm.ftt.rse.mvs.client=NONE
+com.ibm.ftt.ui.rse.utils=NONE
+com.ibm.systemz.common.editor=NONE
+com.ibm.systemz.jcl.editor.core=NONE
+eclipse.preferences.version=1

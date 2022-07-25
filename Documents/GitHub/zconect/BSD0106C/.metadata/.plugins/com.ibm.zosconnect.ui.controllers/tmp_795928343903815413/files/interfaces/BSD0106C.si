@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:message xmlns:ns2="http://www.ibm.com/ims/Transaction" transactionCode="" messageName="BSD0106C" direction="0" serviceType="CICS_COMM_AREA">
+    <message id="1" name="BSD0106C">
+        <segment id="1" name="COMMAREA" originalName="COMMAREA">
+            <field name="BSD0106C" originalName="BSD0106C" included="Y" path="BSD0106C">
+                <startPos>1</startPos>
+                <bytes>64</bytes>
+                <maxBytes>64</maxBytes>
+                <applicationDatatype datatype="STRUCT"/>
+                <field name="BODY_ENTRADA_RACF" originalName="BODY_ENTRADA_RACF" included="Y" path="BSD0106C.BODY_ENTRADA_RACF">
+                    <startPos>1</startPos>
+                    <bytes>34</bytes>
+                    <maxBytes>34</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="CODIGO_APLICACION" originalName="CODIGO_APLICACION" included="Y" path="BSD0106C.BODY_ENTRADA_RACF.CODIGO_APLICACION">
+                        <startPos>1</startPos>
+                        <bytes>2</bytes>
+                        <maxBytes>2</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="IDENTIFICACION_USUARIO" originalName="IDENTIFICACION_USUARIO" included="Y" path="BSD0106C.BODY_ENTRADA_RACF.IDENTIFICACION_USUARIO">
+                        <startPos>3</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CLAVE_USUARIO" originalName="CLAVE_USUARIO" included="Y" path="BSD0106C.BODY_ENTRADA_RACF.CLAVE_USUARIO">
+                        <startPos>11</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="NUEVA_CLAVE" originalName="NUEVA_CLAVE" included="Y" path="BSD0106C.BODY_ENTRADA_RACF.NUEVA_CLAVE">
+                        <startPos>19</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="RECURSO" originalName="RECURSO" included="Y" path="BSD0106C.BODY_ENTRADA_RACF.RECURSO">
+                        <startPos>27</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                </field>
+                <field name="BODY_SALIDA_RACF" originalName="BODY_SALIDA_RACF" included="Y" path="BSD0106C.BODY_SALIDA_RACF">
+                    <startPos>35</startPos>
+                    <bytes>30</bytes>
+                    <maxBytes>30</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="CODIGO_RETORNO" originalName="CODIGO_RETORNO" included="Y" path="BSD0106C.BODY_SALIDA_RACF.CODIGO_RETORNO">
+                        <startPos>35</startPos>
+                        <bytes>2</bytes>
+                        <maxBytes>2</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="PROFILE_USUARIO" originalName="PROFILE_USUARIO" included="Y" path="BSD0106C.BODY_SALIDA_RACF.PROFILE_USUARIO">
+                        <startPos>37</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="NOMBRE_USUARIO" originalName="NOMBRE_USUARIO" included="Y" path="BSD0106C.BODY_SALIDA_RACF.NOMBRE_USUARIO">
+                        <startPos>41</startPos>
+                        <bytes>20</bytes>
+                        <maxBytes>20</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="USO_FUTURO" originalName="USO_FUTURO" included="Y" path="BSD0106C.BODY_SALIDA_RACF.USO_FUTURO">
+                        <startPos>61</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                </field>
+            </field>
+        </segment>
+    </message>
+</ns2:message>

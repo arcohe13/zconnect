@@ -1,0 +1,56 @@
+{
+  "type" : "object",
+  "properties" : {
+    "BSD0106C" : {
+      "type" : "object",
+      "properties" : {
+        "BODY_ENTRADA_RACF" : {
+          "type" : "object",
+          "properties" : {
+            "CODIGO_APLICACION" : {
+              "maxLength" : 2,
+              "type" : "string"
+            },
+            "IDENTIFICACION_USUARIO" : {
+              "maxLength" : 8,
+              "type" : "string"
+            },
+            "CLAVE_USUARIO" : {
+              "maxLength" : 8,
+              "type" : "string"
+            },
+            "NUEVA_CLAVE" : {
+              "maxLength" : 8,
+              "type" : "string"
+            },
+            "RECURSO" : {
+              "maxLength" : 8,
+              "type" : "string"
+            }
+          }
+        },
+        "BODY_SALIDA_RACF" : {
+          "type" : "object",
+          "properties" : {
+            "CODIGO_RETORNO" : {
+              "maxLength" : 2,
+              "type" : "string"
+            },
+            "PROFILE_USUARIO" : {
+              "maxLength" : 4,
+              "type" : "string"
+            },
+            "NOMBRE_USUARIO" : {
+              "maxLength" : 20,
+              "type" : "string"
+            },
+            "USO_FUTURO" : {
+              "maxLength" : 4,
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

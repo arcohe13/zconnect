@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" domainIDExtension="zosconnect" jsonWrapped="false" targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/POST" version="8.0.5.0" xmlns:map="http://www.ibm.com/zosConnect/2.0/mapping/POST">
+    <inlinedXMLSchema targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/JSON/output/POST"><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/JSON/output/POST" xmlns:tns="http://www.ibm.com/zosConnect/2.0/mapping/JSON/output/POST">   
+  <xsd:element name="COMMAREA_HBWGAS78" type="tns:COMMAREA_HBWGAS78"/>   
+  <xsd:complexType name="COMMAREA_HBWGAS78">   
+    <xsd:sequence>   
+      <xsd:element minOccurs="0" name="HEADER_ENTRADA" type="tns:HEADER_ENTRADA"/>   
+      <xsd:element minOccurs="0" name="BODY_ENTRADA" type="tns:BODY_ENTRADA"/>   
+      <xsd:element minOccurs="0" name="HEADER_SALIDA" type="tns:HEADER_SALIDA"/>   
+      <xsd:element minOccurs="0" name="BODY_SALIDA" type="tns:BODY_SALIDA"/>   
+    </xsd:sequence>   
+  </xsd:complexType>   
+  <xsd:complexType name="HEADER_ENTRADA">   
+    <xsd:sequence>   
+      <xsd:element minOccurs="0" name="IDENTIFICADOR_UNICO_GLOBAL">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="250"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="IDENTIFICACION_CANAL">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="4"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="SIGLA_APLICACION">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="3"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="IDENTIFICACION_USUARIO">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="10"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="DIRECCION_IP_CONSUMIDOR">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="20"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="DIRECCION_IP_CLIENTE">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="20"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="FECHA_ENVIO_MENSAJE">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="8"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="HORA_ENVIO_MENSAJE">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="10"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="ATRIBUTO_PAGINEO">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="10"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="CLAVE_BUSQUEDA">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="250"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="CANTIDAD_REGISTROS">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:integer">   
+            <xsd:minInclusive value="0"/>   
+            <xsd:maxInclusive value="999999999"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+    </xsd:sequence>   
+  </xsd:complexType>   
+  <xsd:complexType name="BODY_ENTRADA">   
+    <xsd:sequence>   
+      <xsd:element minOccurs="0" name="TIPO_LINEA">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:integer">   
+            <xsd:minInclusive value="0"/>   
+            <xsd:maxInclusive value="999999"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="NUMERO_TELEFONICO">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:integer">   
+            <xsd:minInclusive value="0"/>   
+            <xsd:maxInclusive value="9999999999999999999999"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+    </xsd:sequence>   
+  </xsd:complexType>   
+  <xsd:complexType name="HEADER_SALIDA">   
+    <xsd:sequence>   
+      <xsd:element minOccurs="0" name="TIPO_MENSAJE">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="1"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="MENSAJE_PROGRAMADOR_SISTEMA">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="250"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="CODIGO_MENSAJE_PROGRAMADOR">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="4"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="MENSAJE_USUARIO">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="250"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="CODIGO_MENSAJE_USUARIO">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="4"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="FECHA_SALIDA_MENSAJE">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="8"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="HORA_SALIDA_MENSAJE">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="10"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+    </xsd:sequence>   
+  </xsd:complexType>   
+  <xsd:complexType name="BODY_SALIDA">   
+    <xsd:sequence>   
+      <xsd:element minOccurs="0" name="NUMERO_PERSONA">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:integer">   
+            <xsd:minInclusive value="0"/>   
+            <xsd:maxInclusive value="9999999999"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="NUMERO_LLAVE_MERCANTIL">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:integer">   
+            <xsd:minInclusive value="0"/>   
+            <xsd:maxInclusive value="999999999999999999"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="CODIGO_PAIS">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="3"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="TIPO_IDENTIFICACION">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="1"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="NUMERO_IDENTIFICACION">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:integer">   
+            <xsd:minInclusive value="0"/>   
+            <xsd:maxInclusive value="999999999999999"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element maxOccurs="16" minOccurs="16" name="PRODUCTOS_ASOCIADOS" type="tns:PRODUCTOS_ASOCIADOS"/>   
+      <xsd:element minOccurs="0" name="EMAIL_BENEFICIARIO">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="50"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+    </xsd:sequence>   
+  </xsd:complexType>   
+  <xsd:complexType name="PRODUCTOS_ASOCIADOS">   
+    <xsd:sequence>   
+      <xsd:element minOccurs="0" name="CODIGO_TIPO_PRODUCTO">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:string">   
+            <xsd:maxLength value="5"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+      <xsd:element minOccurs="0" name="NUMERO_PRODUCTO">   
+        <xsd:simpleType>   
+          <xsd:restriction base="xsd:integer">   
+            <xsd:minInclusive value="0"/>   
+            <xsd:maxInclusive value="99999999999999999999"/>   
+          </xsd:restriction>   
+        </xsd:simpleType>   
+      </xsd:element>   
+    </xsd:sequence>   
+  </xsd:complexType>   
+</xsd:schema>]]></inlinedXMLSchema>
+    <inlinedXMLSchema targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/HTTP/input/POST"><![CDATA[<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/HTTP/input/POST" xmlns:body="http://www.ibm.com/zosConnect/2.0/mapping/JSON/output/POST" xmlns:tns="http://www.ibm.com/zosConnect/2.0/mapping/HTTP/input/POST">     
+     
+      <xsd:import namespace="http://www.ibm.com/zosConnect/2.0/mapping/JSON/output/POST" schemaLocation="../schema_0.xsd"/>     
+     
+      <xsd:element name="HTTPRequest" type="tns:HTTPRequestType"/>     
+     
+      <xsd:complexType name="HTTPRequestType">     
+        <xsd:sequence>     
+          <xsd:element name="Headers" type="tns:HeadersType"/>     
+          <xsd:element name="PathParameters" type="tns:PathParametersType"/>     
+          <xsd:element name="QueryParameters" type="tns:QueryParametersType"/>     
+          <xsd:element name="Body" type="tns:BodyType"/>     
+        </xsd:sequence>     
+      </xsd:complexType>     
+     
+      <xsd:complexType name="HeadersType">     
+        <xsd:sequence>     
+        	<xsd:element maxOccurs="1" minOccurs="0" name="Authorization" type="xsd:string"/>     
+        </xsd:sequence>     
+      </xsd:complexType>     
+     
+      <xsd:complexType name="PathParametersType">     
+        <xsd:sequence>     
+        </xsd:sequence>     
+      </xsd:complexType>     
+     
+      <xsd:complexType name="QueryParametersType">     
+        <xsd:sequence>     
+        </xsd:sequence>     
+      </xsd:complexType>     
+     
+      <xsd:complexType name="BodyType">     
+        <xsd:sequence>     
+          <xsd:element ref="body:COMMAREA_HBWGAS78"/>     
+        </xsd:sequence>     
+      </xsd:complexType>     
+    </xsd:schema>]]></inlinedXMLSchema>
+    <input inlinedXMLSchema="true" path="../schema_1.xsd" targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/HTTP/input/POST" var="rootInput"/>
+    <output inlinedXMLSchema="true" path="../schema_0.xsd" targetNamespace="http://www.ibm.com/zosConnect/2.0/mapping/JSON/output/POST" var="rootOutput"/>
+    <namespaces>
+        <namespace kind="supplement" prefix="in" uri="http://www.ibm.com/zosConnect/2.0/mapping/HTTP/input/POST"/>
+        <namespace kind="supplement" prefix="out" uri="http://www.ibm.com/zosConnect/2.0/mapping/JSON/output/POST"/>
+    </namespaces>
+    <mappingDeclaration name="POST.v1.safe.consultarProductosCelular">
+        <input namespace="http://www.ibm.com/zosConnect/2.0/mapping/HTTP/input/POST" path="$rootInput/HTTPRequest"/>
+        <output namespace="http://www.ibm.com/zosConnect/2.0/mapping/JSON/output/POST" path="$rootOutput/COMMAREA_HBWGAS78"/>
+        <passthrough>
+            <input path="Body/COMMAREA_HBWGAS78"/>
+            <output path="."/>
+            <updates>
+                <remove>
+                    <output path="HEADER_SALIDA" shape="1,2"/>
+                </remove>
+                <remove>
+                    <output path="BODY_SALIDA" shape="1,2"/>
+                </remove>
+            </updates>
+        </passthrough>
+    </mappingDeclaration>
+</mappingRoot>

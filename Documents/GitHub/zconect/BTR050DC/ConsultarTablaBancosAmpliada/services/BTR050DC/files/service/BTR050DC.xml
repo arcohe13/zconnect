@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service xmlns:ns2="http://www.ibm.com/ims/Transaction">
+    <shallow>true</shallow>
+    <serviceName>BTR050DC</serviceName>
+    <serviceType>ims-rest</serviceType>
+    <resourceType>TRAN</resourceType>
+    <status>1</status>
+    <conversionType>3</conversionType>
+    <dataProtocol>0</dataProtocol>
+    <serviceInputInterface>
+        <metadataName>BTR050DC.si</metadataName>
+        <serviceInterface>
+            <interface>
+                <segment segmentName="COMMAREA">
+                    <interfaceField included="Y" fieldName="COMMAREA_BTR050DC">
+                        <field included="Y" fieldName="HEADER_ENTRADA">
+                            <field included="Y" fieldName="IDENTIFICADOR_UNICO_GLOBAL"/>
+                            <field included="Y" fieldName="IDENTIFICACION_CANAL"/>
+                            <field included="Y" fieldName="SIGLA_APLICACION"/>
+                            <field included="Y" fieldName="IDENTIFICACION_USUARIO"/>
+                            <field included="Y" fieldName="DIRECCION_IP_CONSUMIDOR"/>
+                            <field included="Y" fieldName="DIRECCION_IP_CLIENTE"/>
+                            <field included="Y" fieldName="FECHA_ENVIO_MENSAJE"/>
+                            <field included="Y" fieldName="HORA_ENVIO_MENSAJE"/>
+                            <field included="Y" fieldName="ATRIBUTO_PAGINEO"/>
+                            <field included="Y" fieldName="CLAVE_BUSQUEDA"/>
+                            <field included="Y" fieldName="CANTIDAD_REGISTROS"/>
+                        </field>
+                        <field included="Y" fieldName="BODY_ENTRADA">
+                            <field included="Y" fieldName="INDICADOR_TIPO_BUSQUEDA"/>
+                            <field included="Y" fieldName="CODIGO_BANCO_BCV"/>
+                            <field included="Y" fieldName="CODIGO_SWIFT"/>
+                            <field included="Y" fieldName="CODIGO_ABA"/>
+                            <field included="Y" fieldName="CODIGO_SUCURSAL"/>
+                            <field included="Y" fieldName="INDICADOR_STATUS_BANCO"/>
+                            <field included="Y" fieldName="INDICADOR_PIGNORACION_BANCO"/>
+                        </field>
+                        <field included="Y" fieldName="HEADER_SALIDA">
+                            <field included="Y" fieldName="TIPO_MENSAJE"/>
+                            <field included="Y" fieldName="MENSAJE_PROGRAMADOR_SISTEMA"/>
+                            <field included="Y" fieldName="CODIGO_MENSAJE_PROGRAMADOR"/>
+                            <field included="Y" fieldName="MENSAJE_USUARIO"/>
+                            <field included="Y" fieldName="CODIGO_MENSAJE_USUARIO"/>
+                            <field included="Y" fieldName="FECHA_SALIDA_MENSAJE"/>
+                            <field included="Y" fieldName="HORA_SALIDA_MENSAJE"/>
+                        </field>
+                        <field included="Y" fieldName="BODY_SALIDA">
+                            <field included="Y" fieldName="CANTIDAD_REGISTROS_RETORNADOS"/>
+                            <field included="Y" fieldName="AREA_PAGINACION"/>
+                            <field included="Y" fieldName="DETALLE_BANCO">
+<field included="Y" fieldName="CODIGO_BANCO_BCV"/>
+<field included="Y" fieldName="CODIGO_BANCO_SWIFT"/>
+<field included="Y" fieldName="CODIGO_BANCO_ABA"/>
+<field included="Y" fieldName="NOMBRE_BANCO"/>
+<field included="Y" fieldName="CALLE"/>
+<field included="Y" fieldName="CIUDAD"/>
+<field included="Y" fieldName="ESTADO"/>
+<field included="Y" fieldName="PAIS"/>
+<field included="Y" fieldName="DIRECCION_CABLE"/>
+<field included="Y" fieldName="CODIGO_POSTAL"/>
+<field included="Y" fieldName="NUMERO_TELEFONO_1"/>
+<field included="Y" fieldName="NUMERO_TELEFONO_2"/>
+<field included="Y" fieldName="NUMERO_TELEX_1"/>
+<field included="Y" fieldName="NUMERO_TELEX_2"/>
+<field included="Y" fieldName="NUMERO_TELEX_3"/>
+<field included="Y" fieldName="CODIGO_CLASIFICACION"/>
+<field included="Y" fieldName="NUMERO_CUENTA_MAYOR"/>
+<field included="Y" fieldName="CODIGO_ALA"/>
+<field included="Y" fieldName="NUMERO_PERSONA"/>
+<field included="Y" fieldName="CODIGO_MONEDA"/>
+<field included="Y" fieldName="INDICADOR_STATUS_BANCO"/>
+<field included="Y" fieldName="INDICADOR_OTRA_DIVISA"/>
+<field included="Y" fieldName="NUMERO_CARNET_INDICADOR_PARAIS"/>
+<field included="Y" fieldName="FECHA_INDICADOR_PARAISO_FISCAL"/>
+<field included="Y" fieldName="INDICADOR_PARAISO_FISCAL"/>
+<field included="Y" fieldName="NUMERO_CUENTA_BCV"/>
+<field included="Y" fieldName="INDICADOR_CONVERSION"/>
+<field included="Y" fieldName="NUMERO_CUENTA_PRINCIPAL"/>
+<field included="Y" fieldName="INDICADOR_PIGNORACION_BANCO"/>
+<field included="Y" fieldName="INDICE_CCE"/>
+<field included="Y" fieldName="INDICADOR_SISTEMA_LBTR"/>
+                            </field>
+                        </field>
+                    </interfaceField>
+                </segment>
+            </interface>
+        </serviceInterface>
+        <version>0</version>
+    </serviceInputInterface>
+    <serviceOutputInterface>
+        <metadataName>BTR050DC.si</metadataName>
+        <serviceInterface>
+            <interface>
+                <segment segmentName="COMMAREA">
+                    <interfaceField included="Y" fieldName="COMMAREA_BTR050DC">
+                        <field included="Y" fieldName="HEADER_ENTRADA">
+                            <field included="Y" fieldName="IDENTIFICADOR_UNICO_GLOBAL"/>
+                            <field included="Y" fieldName="IDENTIFICACION_CANAL"/>
+                            <field included="Y" fieldName="SIGLA_APLICACION"/>
+                            <field included="Y" fieldName="IDENTIFICACION_USUARIO"/>
+                            <field included="Y" fieldName="DIRECCION_IP_CONSUMIDOR"/>
+                            <field included="Y" fieldName="DIRECCION_IP_CLIENTE"/>
+                            <field included="Y" fieldName="FECHA_ENVIO_MENSAJE"/>
+                            <field included="Y" fieldName="HORA_ENVIO_MENSAJE"/>
+                            <field included="Y" fieldName="ATRIBUTO_PAGINEO"/>
+                            <field included="Y" fieldName="CLAVE_BUSQUEDA"/>
+                            <field included="Y" fieldName="CANTIDAD_REGISTROS"/>
+                        </field>
+                        <field included="Y" fieldName="BODY_ENTRADA">
+                            <field included="Y" fieldName="INDICADOR_TIPO_BUSQUEDA"/>
+                            <field included="Y" fieldName="CODIGO_BANCO_BCV"/>
+                            <field included="Y" fieldName="CODIGO_SWIFT"/>
+                            <field included="Y" fieldName="CODIGO_ABA"/>
+                            <field included="Y" fieldName="CODIGO_SUCURSAL"/>
+                            <field included="Y" fieldName="INDICADOR_STATUS_BANCO"/>
+                            <field included="Y" fieldName="INDICADOR_PIGNORACION_BANCO"/>
+                        </field>
+                        <field included="Y" fieldName="HEADER_SALIDA">
+                            <field included="Y" fieldName="TIPO_MENSAJE"/>
+                            <field included="Y" fieldName="MENSAJE_PROGRAMADOR_SISTEMA"/>
+                            <field included="Y" fieldName="CODIGO_MENSAJE_PROGRAMADOR"/>
+                            <field included="Y" fieldName="MENSAJE_USUARIO"/>
+                            <field included="Y" fieldName="CODIGO_MENSAJE_USUARIO"/>
+                            <field included="Y" fieldName="FECHA_SALIDA_MENSAJE"/>
+                            <field included="Y" fieldName="HORA_SALIDA_MENSAJE"/>
+                        </field>
+                        <field included="Y" fieldName="BODY_SALIDA">
+                            <field included="Y" fieldName="CANTIDAD_REGISTROS_RETORNADOS"/>
+                            <field included="Y" fieldName="AREA_PAGINACION"/>
+                            <field included="Y" fieldName="DETALLE_BANCO">
+<field included="Y" fieldName="CODIGO_BANCO_BCV"/>
+<field included="Y" fieldName="CODIGO_BANCO_SWIFT"/>
+<field included="Y" fieldName="CODIGO_BANCO_ABA"/>
+<field included="Y" fieldName="NOMBRE_BANCO"/>
+<field included="Y" fieldName="CALLE"/>
+<field included="Y" fieldName="CIUDAD"/>
+<field included="Y" fieldName="ESTADO"/>
+<field included="Y" fieldName="PAIS"/>
+<field included="Y" fieldName="DIRECCION_CABLE"/>
+<field included="Y" fieldName="CODIGO_POSTAL"/>
+<field included="Y" fieldName="NUMERO_TELEFONO_1"/>
+<field included="Y" fieldName="NUMERO_TELEFONO_2"/>
+<field included="Y" fieldName="NUMERO_TELEX_1"/>
+<field included="Y" fieldName="NUMERO_TELEX_2"/>
+<field included="Y" fieldName="NUMERO_TELEX_3"/>
+<field included="Y" fieldName="CODIGO_CLASIFICACION"/>
+<field included="Y" fieldName="NUMERO_CUENTA_MAYOR"/>
+<field included="Y" fieldName="CODIGO_ALA"/>
+<field included="Y" fieldName="NUMERO_PERSONA"/>
+<field included="Y" fieldName="CODIGO_MONEDA"/>
+<field included="Y" fieldName="INDICADOR_STATUS_BANCO"/>
+<field included="Y" fieldName="INDICADOR_OTRA_DIVISA"/>
+<field included="Y" fieldName="NUMERO_CARNET_INDICADOR_PARAIS"/>
+<field included="Y" fieldName="FECHA_INDICADOR_PARAISO_FISCAL"/>
+<field included="Y" fieldName="INDICADOR_PARAISO_FISCAL"/>
+<field included="Y" fieldName="NUMERO_CUENTA_BCV"/>
+<field included="Y" fieldName="INDICADOR_CONVERSION"/>
+<field included="Y" fieldName="NUMERO_CUENTA_PRINCIPAL"/>
+<field included="Y" fieldName="INDICADOR_PIGNORACION_BANCO"/>
+<field included="Y" fieldName="INDICE_CCE"/>
+<field included="Y" fieldName="INDICADOR_SISTEMA_LBTR"/>
+                            </field>
+                        </field>
+                    </interfaceField>
+                </segment>
+            </interface>
+        </serviceInterface>
+        <version>0</version>
+    </serviceOutputInterface>
+    <applicationDataStructureType>Block</applicationDataStructureType>
+    <messageVisitorRuntimeType>CICS_COMMAREA</messageVisitorRuntimeType>
+    <ccsid>IBM037</ccsid>
+    <totalExecCount>0</totalExecCount>
+    <failedCount>0</failedCount>
+    <trancodeOverride>BTR050DC</trancodeOverride>
+    <trimOutputLeadingWhitespace>false</trimOutputLeadingWhitespace>
+    <trimOutputTrailingWhitespace>true</trimOutputTrailingWhitespace>
+    <escapeOutputControlCharacters>false</escapeOutputControlCharacters>
+    <initializeInputFields>false</initializeInputFields>
+    <omitOutputFieldsByValue>false</omitOutputFieldsByValue>
+    <omitOutputFieldsByValueByte>0x00</omitOutputFieldsByValueByte>
+    <omitOutputEmptyTags>false</omitOutputEmptyTags>
+    <enforceMinArrayOccurrence>false</enforceMinArrayOccurrence>
+    <enforceMinArrayOccurrenceResponse>false</enforceMinArrayOccurrenceResponse>
+</service>

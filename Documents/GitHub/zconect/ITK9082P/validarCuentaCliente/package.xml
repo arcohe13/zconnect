@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zosConnectApi xmlns="http://www.ibm.com/zosConnect/2.0/zosConnectApi" id="validarCuentaCliente">
+    <apiSpec title="validarCuentaCliente" basePath="/itk9082p" description="" version="1.0.0">
+        <path relativePath="/newPath1">
+            <method type="POST" zosConnectServiceRef="ITK9082P" httpXformFile="api/newPath1/POST/mapping.xml" operationId="postITK9082P"/>
+            <method type="GET" httpXformFile="api/newPath1/GET/mapping.xml"/>
+            <method type="PUT" httpXformFile="api/newPath1/PUT/mapping.xml"/>
+            <method type="DELETE" httpXformFile="api/newPath1/DELETE/mapping.xml"/>
+        </path>
+        <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
+    </apiSpec>
+</zosConnectApi>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zosConnectApi xmlns="http://www.ibm.com/zosConnect/2.0/zosConnectApi" id="solicitarChequerasCantidades">
+    <apiSpec title="solicitarChequerasCantidades" basePath="/BSF5136P" description="solicitar la cantidad de chequeras" version="1.0.0">
+        <path relativePath="/v1/safe/solicitarChequerasCantidades">
+            <method type="POST" zosConnectServiceRef="BSF5136P" operationId="postBSF5136P"/>
+        </path>
+        <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
+    </apiSpec>
+</zosConnectApi>

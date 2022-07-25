@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:message xmlns:ns2="http://www.ibm.com/ims/Transaction" transactionCode="" messageName="HBWGAS78" direction="0" serviceType="CICS_COMM_AREA">
+    <message id="1" name="HBWGAS78">
+        <segment id="1" name="COMMAREA" originalName="COMMAREA">
+            <field name="COMMAREA_HBWGAS78" originalName="COMMAREA_HBWGAS78" included="Y" path="COMMAREA_HBWGAS78">
+                <startPos>1</startPos>
+                <bytes>1646</bytes>
+                <maxBytes>1646</maxBytes>
+                <applicationDatatype datatype="STRUCT"/>
+                <field name="HEADER_ENTRADA" originalName="HEADER_ENTRADA" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA">
+                    <startPos>1</startPos>
+                    <bytes>594</bytes>
+                    <maxBytes>594</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="IDENTIFICADOR_UNICO_GLOBAL" originalName="IDENTIFICADOR_UNICO_GLOBAL" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.IDENTIFICADOR_UNICO_GLOBAL">
+                        <startPos>1</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="IDENTIFICACION_CANAL" originalName="IDENTIFICACION_CANAL" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.IDENTIFICACION_CANAL">
+                        <startPos>251</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="SIGLA_APLICACION" originalName="SIGLA_APLICACION" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.SIGLA_APLICACION">
+                        <startPos>255</startPos>
+                        <bytes>3</bytes>
+                        <maxBytes>3</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="IDENTIFICACION_USUARIO" originalName="IDENTIFICACION_USUARIO" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.IDENTIFICACION_USUARIO">
+                        <startPos>258</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="DIRECCION_IP_CONSUMIDOR" originalName="DIRECCION_IP_CONSUMIDOR" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.DIRECCION_IP_CONSUMIDOR">
+                        <startPos>268</startPos>
+                        <bytes>20</bytes>
+                        <maxBytes>20</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="DIRECCION_IP_CLIENTE" originalName="DIRECCION_IP_CLIENTE" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.DIRECCION_IP_CLIENTE">
+                        <startPos>288</startPos>
+                        <bytes>20</bytes>
+                        <maxBytes>20</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="FECHA_ENVIO_MENSAJE" originalName="FECHA_ENVIO_MENSAJE" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.FECHA_ENVIO_MENSAJE">
+                        <startPos>308</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="HORA_ENVIO_MENSAJE" originalName="HORA_ENVIO_MENSAJE" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.HORA_ENVIO_MENSAJE">
+                        <startPos>316</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="ATRIBUTO_PAGINEO" originalName="ATRIBUTO_PAGINEO" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.ATRIBUTO_PAGINEO">
+                        <startPos>326</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CLAVE_BUSQUEDA" originalName="CLAVE_BUSQUEDA" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.CLAVE_BUSQUEDA">
+                        <startPos>336</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CANTIDAD_REGISTROS" originalName="CANTIDAD_REGISTROS" included="Y" path="COMMAREA_HBWGAS78.HEADER_ENTRADA.CANTIDAD_REGISTROS">
+                        <startPos>586</startPos>
+                        <bytes>9</bytes>
+                        <maxBytes>9</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="9" scale="0"/>
+                    </field>
+                </field>
+                <field name="BODY_ENTRADA" originalName="BODY_ENTRADA" included="Y" path="COMMAREA_HBWGAS78.BODY_ENTRADA">
+                    <startPos>595</startPos>
+                    <bytes>28</bytes>
+                    <maxBytes>28</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="TIPO_LINEA" originalName="TIPO_LINEA" included="Y" path="COMMAREA_HBWGAS78.BODY_ENTRADA.TIPO_LINEA">
+                        <startPos>595</startPos>
+                        <bytes>6</bytes>
+                        <maxBytes>6</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="6" scale="0"/>
+                    </field>
+                    <field name="NUMERO_TELEFONICO" originalName="NUMERO_TELEFONICO" included="Y" path="COMMAREA_HBWGAS78.BODY_ENTRADA.NUMERO_TELEFONICO">
+                        <startPos>601</startPos>
+                        <bytes>22</bytes>
+                        <maxBytes>22</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="22" scale="0"/>
+                    </field>
+                </field>
+                <field name="HEADER_SALIDA" originalName="HEADER_SALIDA" included="Y" path="COMMAREA_HBWGAS78.HEADER_SALIDA">
+                    <startPos>623</startPos>
+                    <bytes>527</bytes>
+                    <maxBytes>527</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="TIPO_MENSAJE" originalName="TIPO_MENSAJE" included="Y" path="COMMAREA_HBWGAS78.HEADER_SALIDA.TIPO_MENSAJE">
+                        <startPos>623</startPos>
+                        <bytes>1</bytes>
+                        <maxBytes>1</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="MENSAJE_PROGRAMADOR_SISTEMA" originalName="MENSAJE_PROGRAMADOR_SISTEMA" included="Y" path="COMMAREA_HBWGAS78.HEADER_SALIDA.MENSAJE_PROGRAMADOR_SISTEMA">
+                        <startPos>624</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CODIGO_MENSAJE_PROGRAMADOR" originalName="CODIGO_MENSAJE_PROGRAMADOR" included="Y" path="COMMAREA_HBWGAS78.HEADER_SALIDA.CODIGO_MENSAJE_PROGRAMADOR">
+                        <startPos>874</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="MENSAJE_USUARIO" originalName="MENSAJE_USUARIO" included="Y" path="COMMAREA_HBWGAS78.HEADER_SALIDA.MENSAJE_USUARIO">
+                        <startPos>878</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CODIGO_MENSAJE_USUARIO" originalName="CODIGO_MENSAJE_USUARIO" included="Y" path="COMMAREA_HBWGAS78.HEADER_SALIDA.CODIGO_MENSAJE_USUARIO">
+                        <startPos>1128</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="FECHA_SALIDA_MENSAJE" originalName="FECHA_SALIDA_MENSAJE" included="Y" path="COMMAREA_HBWGAS78.HEADER_SALIDA.FECHA_SALIDA_MENSAJE">
+                        <startPos>1132</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="HORA_SALIDA_MENSAJE" originalName="HORA_SALIDA_MENSAJE" included="Y" path="COMMAREA_HBWGAS78.HEADER_SALIDA.HORA_SALIDA_MENSAJE">
+                        <startPos>1140</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                </field>
+                <field name="BODY_SALIDA" originalName="BODY_SALIDA" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA">
+                    <startPos>1150</startPos>
+                    <bytes>497</bytes>
+                    <maxBytes>497</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="NUMERO_PERSONA" originalName="NUMERO_PERSONA" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA.NUMERO_PERSONA">
+                        <startPos>1150</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="10" scale="0"/>
+                    </field>
+                    <field name="NUMERO_LLAVE_MERCANTIL" originalName="NUMERO_LLAVE_MERCANTIL" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA.NUMERO_LLAVE_MERCANTIL">
+                        <startPos>1160</startPos>
+                        <bytes>18</bytes>
+                        <maxBytes>18</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="18" scale="0"/>
+                    </field>
+                    <field name="CODIGO_PAIS" originalName="CODIGO_PAIS" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA.CODIGO_PAIS">
+                        <startPos>1178</startPos>
+                        <bytes>3</bytes>
+                        <maxBytes>3</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="TIPO_IDENTIFICACION" originalName="TIPO_IDENTIFICACION" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA.TIPO_IDENTIFICACION">
+                        <startPos>1181</startPos>
+                        <bytes>1</bytes>
+                        <maxBytes>1</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="NUMERO_IDENTIFICACION" originalName="NUMERO_IDENTIFICACION" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA.NUMERO_IDENTIFICACION">
+                        <startPos>1182</startPos>
+                        <bytes>15</bytes>
+                        <maxBytes>15</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="15" scale="0"/>
+                    </field>
+                    <field name="PRODUCTOS_ASOCIADOS" originalName="PRODUCTOS_ASOCIADOS" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA.PRODUCTOS_ASOCIADOS" minOccurs="16" maxOccurs="16">
+                        <startPos>1197</startPos>
+                        <bytes>400</bytes>
+                        <maxBytes>400</maxBytes>
+                        <applicationDatatype datatype="ARRAY"/>
+                        <field name="CODIGO_TIPO_PRODUCTO" originalName="CODIGO_TIPO_PRODUCTO" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA.PRODUCTOS_ASOCIADOS.CODIGO_TIPO_PRODUCTO">
+                            <bytes>5</bytes>
+                            <maxBytes>5</maxBytes>
+                            <applicationDatatype datatype="CHAR"/>
+                        </field>
+                        <field name="NUMERO_PRODUCTO" originalName="NUMERO_PRODUCTO" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA.PRODUCTOS_ASOCIADOS.NUMERO_PRODUCTO">
+                            <bytes>20</bytes>
+                            <maxBytes>20</maxBytes>
+                            <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+<typeConverter>ZONEDDECIMAL</typeConverter>
+                            </marshaller>
+                            <applicationDatatype datatype="DECIMAL" precision="20" scale="0"/>
+                        </field>
+                    </field>
+                    <field name="EMAIL_BENEFICIARIO" originalName="EMAIL_BENEFICIARIO" included="Y" path="COMMAREA_HBWGAS78.BODY_SALIDA.EMAIL_BENEFICIARIO">
+                        <startPos>1597</startPos>
+                        <bytes>50</bytes>
+                        <maxBytes>50</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                </field>
+            </field>
+        </segment>
+    </message>
+</ns2:message>

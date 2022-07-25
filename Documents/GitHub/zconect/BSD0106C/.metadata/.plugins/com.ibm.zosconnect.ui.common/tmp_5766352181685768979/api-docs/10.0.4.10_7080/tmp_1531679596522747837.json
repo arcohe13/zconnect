@@ -1,0 +1,189 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "dsfds",
+    "version" : "1.0.0",
+    "title" : "liberarMontos"
+  },
+  "host" : "10.0.4.10:7080",
+  "basePath" : "/saf3700p",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/newPath1" : {
+      "post" : {
+        "tags" : [ "liberarMontos" ],
+        "operationId" : "postSAF3700P",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "postSAF3700P_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postSAF3700P_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postSAF3700P_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "postSAF3700P_request" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_SAF3700P" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "IDENTIFICADOR_UNICO_GLOBAL" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "IDENTIFICACION_CANAL" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "SIGLA_APLICACION" : {
+                  "type" : "string",
+                  "maxLength" : 3
+                },
+                "IDENTIFICACION_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "DIRECCION_IP_CONSUMIDOR" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "DIRECCION_IP_CLIENTE" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "FECHA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "ATRIBUTO_PAGINEO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "CLAVE_BUSQUEDA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CANTIDAD_REGISTROS" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999
+                }
+              }
+            },
+            "BODY_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "NUMERO_CUENTA" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "SERIAL" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999999999
+                },
+                "REFERENCIA" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999999999
+                },
+                "NUMERO_TERMINAL" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 9999
+                },
+                "MONTO_TRANSACCION" : {
+                  "type" : "number",
+                  "format" : "decimal",
+                  "minimum" : 0,
+                  "maximum" : 9999999999999.99
+                },
+                "MONTO_EFECTIVO" : {
+                  "type" : "number",
+                  "format" : "decimal",
+                  "minimum" : 0,
+                  "maximum" : 9999999999999.99
+                },
+                "REFERENCIA2" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999999999
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postSAF3700P_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_SAF3700P" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "TIPO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "MENSAJE_PROGRAMADOR_SISTEMA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_PROGRAMADOR" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "FECHA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

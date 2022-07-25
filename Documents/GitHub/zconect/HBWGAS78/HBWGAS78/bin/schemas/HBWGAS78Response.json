@@ -1,0 +1,159 @@
+{
+  "type" : "object",
+  "properties" : {
+    "COMMAREA_HBWGAS78" : {
+      "type" : "object",
+      "properties" : {
+        "HEADER_ENTRADA" : {
+          "type" : "object",
+          "properties" : {
+            "IDENTIFICADOR_UNICO_GLOBAL" : {
+              "maxLength" : 250,
+              "type" : "string"
+            },
+            "IDENTIFICACION_CANAL" : {
+              "maxLength" : 4,
+              "type" : "string"
+            },
+            "SIGLA_APLICACION" : {
+              "maxLength" : 3,
+              "type" : "string"
+            },
+            "IDENTIFICACION_USUARIO" : {
+              "maxLength" : 10,
+              "type" : "string"
+            },
+            "DIRECCION_IP_CONSUMIDOR" : {
+              "maxLength" : 20,
+              "type" : "string"
+            },
+            "DIRECCION_IP_CLIENTE" : {
+              "maxLength" : 20,
+              "type" : "string"
+            },
+            "FECHA_ENVIO_MENSAJE" : {
+              "maxLength" : 8,
+              "type" : "string"
+            },
+            "HORA_ENVIO_MENSAJE" : {
+              "maxLength" : 10,
+              "type" : "string"
+            },
+            "ATRIBUTO_PAGINEO" : {
+              "maxLength" : 10,
+              "type" : "string"
+            },
+            "CLAVE_BUSQUEDA" : {
+              "maxLength" : 250,
+              "type" : "string"
+            },
+            "CANTIDAD_REGISTROS" : {
+              "minimum" : 0,
+              "maximum" : 999999999,
+              "type" : "integer"
+            }
+          }
+        },
+        "BODY_ENTRADA" : {
+          "type" : "object",
+          "properties" : {
+            "TIPO_LINEA" : {
+              "minimum" : 0,
+              "maximum" : 999999,
+              "type" : "integer"
+            },
+            "NUMERO_TELEFONICO" : {
+              "minimum" : 0,
+              "maximum" : "9999999999999999999999",
+              "type" : "integer"
+            }
+          }
+        },
+        "HEADER_SALIDA" : {
+          "type" : "object",
+          "properties" : {
+            "TIPO_MENSAJE" : {
+              "maxLength" : 1,
+              "type" : "string"
+            },
+            "MENSAJE_PROGRAMADOR_SISTEMA" : {
+              "maxLength" : 250,
+              "type" : "string"
+            },
+            "CODIGO_MENSAJE_PROGRAMADOR" : {
+              "maxLength" : 4,
+              "type" : "string"
+            },
+            "MENSAJE_USUARIO" : {
+              "maxLength" : 250,
+              "type" : "string"
+            },
+            "CODIGO_MENSAJE_USUARIO" : {
+              "maxLength" : 4,
+              "type" : "string"
+            },
+            "FECHA_SALIDA_MENSAJE" : {
+              "maxLength" : 8,
+              "type" : "string"
+            },
+            "HORA_SALIDA_MENSAJE" : {
+              "maxLength" : 10,
+              "type" : "string"
+            }
+          }
+        },
+        "BODY_SALIDA" : {
+          "type" : "object",
+          "properties" : {
+            "NUMERO_PERSONA" : {
+              "minimum" : 0,
+              "maximum" : 9999999999,
+              "type" : "integer"
+            },
+            "NUMERO_LLAVE_MERCANTIL" : {
+              "minimum" : 0,
+              "maximum" : 999999999999999999,
+              "type" : "integer"
+            },
+            "CODIGO_PAIS" : {
+              "maxLength" : 3,
+              "type" : "string"
+            },
+            "TIPO_IDENTIFICACION" : {
+              "maxLength" : 1,
+              "type" : "string"
+            },
+            "NUMERO_IDENTIFICACION" : {
+              "minimum" : 0,
+              "maximum" : 999999999999999,
+              "type" : "integer"
+            },
+            "PRODUCTOS_ASOCIADOS" : {
+              "type" : "array",
+              "maxItems" : 16,
+              "minItems" : 16,
+              "items" : {
+                "type" : "object",
+                "properties" : {
+                  "CODIGO_TIPO_PRODUCTO" : {
+                    "maxLength" : 5,
+                    "type" : "string"
+                  },
+                  "NUMERO_PRODUCTO" : {
+                    "minimum" : 0,
+                    "maximum" : "99999999999999999999",
+                    "type" : "integer"
+                  }
+                }
+              }
+            },
+            "EMAIL_BENEFICIARIO" : {
+              "maxLength" : 50,
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

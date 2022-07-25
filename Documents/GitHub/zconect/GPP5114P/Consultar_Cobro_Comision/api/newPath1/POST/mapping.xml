@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ZosConnectServiceMapping xmlns:ns2="http://www.ibm.com/zosConnect/2.0/zosConnectServiceMapping" mappingSpecVersion="1.0">
+    <mappingContext basePath="/GPP5114P" relativePath="/newPath1" method="POST" serviceName="GPP5114P" defaultResponseCode="200"/>
+    <requestMessage>
+        <mappingRootModel type="MSL" location="api/newPath1/POST/request.map"/>
+    </requestMessage>
+    <responseMessages code="200" description="OK"/>
+</ns2:ZosConnectServiceMapping>

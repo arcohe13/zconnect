@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Suprimir el recurso &apos;BTR050DC/BTR050DC.sar&apos;" deleteContents="false" description="Suprimir el recurso &apos;BTR050DC/BTR050DC.sar&apos;" element1="/BTR050DC/BTR050DC.sar" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1654872993970"/>
+</session>

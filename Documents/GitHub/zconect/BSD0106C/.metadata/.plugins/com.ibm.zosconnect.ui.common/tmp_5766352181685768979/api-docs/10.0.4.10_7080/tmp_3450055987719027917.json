@@ -1,0 +1,111 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "",
+    "version" : "1.0.0",
+    "title" : "CrearUsuario"
+  },
+  "host" : "10.0.4.10:7080",
+  "basePath" : "/bsd0312c",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/v01/crearusuario" : {
+      "post" : {
+        "tags" : [ "CrearUsuario" ],
+        "operationId" : "postBSD0312C",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "postBSD0312C_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postBSD0312C_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postBSD0312C_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "postBSD0312C_request" : {
+      "type" : "object",
+      "properties" : {
+        "BSD0312C" : {
+          "type" : "object",
+          "properties" : {
+            "BODY_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "ACCION" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "CLAVE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "NOMBRE" : {
+                  "type" : "string",
+                  "maxLength" : 22
+                },
+                "GRUPO" : {
+                  "type" : "string",
+                  "maxLength" : 9
+                },
+                "NUMERO_IDENTIFICADOR" : {
+                  "type" : "string",
+                  "maxLength" : 15
+                },
+                "TIPO" : {
+                  "type" : "string",
+                  "maxLength" : 6
+                },
+                "EMPRESA" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postBSD0312C_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "BSD0312C" : {
+          "type" : "object",
+          "properties" : {
+            "BODY_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "CODIGO_RETORNO" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

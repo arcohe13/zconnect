@@ -1,0 +1,532 @@
+com.ibm.cics.eclipse.common.runtime_3.0.0.201908281947
+2022/06/08 12:41:35.045 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2022/06/08 12:41:35.170 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.setTrustStorePassphrase()
+2022/06/08 12:41:35.708 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.setTrustStorePassphrase()
+2022/06/08 12:41:35.708 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.setKeyStorePassphrase()
+2022/06/08 12:41:35.718 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.setKeyStorePassphrase()
+2022/06/08 12:41:35.718 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2022/06/08 12:41:35.722 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2022/06/08 12:41:35.722 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2022/06/08 12:41:35.728 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@45c18861]
+2022/06/08 12:41:35.728 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@752d446b]
+2022/06/08 12:41:35.728 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/08 12:41:35.728 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@9f8ec68a]
+2022/06/08 12:41:35.730 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/08 12:41:35.730 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/08 12:41:35.730 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/08 12:41:35.731 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/08 12:41:35.731 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/08 12:41:35.731 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@3ce6]
+2022/06/08 12:41:35.731 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/08 12:41:35.731 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/08 12:41:35.870 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@5601a530]
+2022/06/08 12:41:35.870 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@2711227a]
+2022/06/08 12:41:35.870 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/08 12:41:35.870 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@6dcd4e92]
+2022/06/08 12:41:35.871 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/08 12:41:35.871 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/08 12:41:35.871 VET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@5601a530 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/08 12:41:35.871 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/08 12:41:35.871 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2022/06/08 12:41:35.871 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2022/06/08 12:41:35.871 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/08 12:41:35.886 VET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2022/06/08 12:41:35.887 VET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2022/06/08 12:41:35.890 VET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2022/06/08 12:41:35.890 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/08 12:41:35.890 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/08 12:41:35.890 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@edbeaa9]
+2022/06/08 12:41:35.890 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/08 12:41:35.890 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/08 12:41:35.890 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/08 12:41:35.890 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@e8847745]
+2022/06/08 12:41:35.890 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/08 12:41:35.890 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@b283113]
+2022/06/08 12:41:35.890 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/08 12:41:35.890 VET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@8113ada1]
+2022/06/08 12:41:35.898 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 12:41:35.898 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 12:41:43.196 VET [41] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@dbd62f32]
+2022/06/08 12:41:43.196 VET [41] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2022/06/08 12:41:43.231 VET [41] - com.ibm.cics.zos.model.ZOSConnectable.<init>() [com.ibm.cics.zos.model.ZOSConnectable@4c1dc291]
+2022/06/08 12:41:44.188 VET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2022/06/08 12:41:44.189 VET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/08 12:41:44.189 VET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/08 12:41:44.207 VET [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@7315526b, org.eclipse.ui.internal.WorkbenchWindow@c7e3b766]
+2022/06/08 12:41:58.804 VET [1] createPartControl com.ibm.cics.core.connections.internal.views.HostConnectionsView.createPartControl()
+2022/06/08 12:41:58.942 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.views.HostConnectionsView$25@2ddf4cfd]
+2022/06/08 12:41:58.942 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/08 12:42:43.711 VET [1] com.ibm.cics.core.ui plugin connection customizers not loaded as plugin absent com.ibm.cics.core.connections.internal.ConnectionCustomizerRegistry.<constructor>()
+2022/06/08 12:42:43.711 VET [1] - com.ibm.cics.core.connections.internal.EditConnectionDialog.ConnectionDialog() [Create_With_Descriptor, com.ibm.zosconnect.ui.connections.type.adminapi]
+2022/06/08 12:43:04.477 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getUnusedLocalId()
+2022/06/08 12:43:04.479 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getUnusedLocalId() [1654706584479-0]
+2022/06/08 12:43:04.479 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.createNewConnectionParameters() [1654706584479-0, Zconnect desarrollo, com.ibm.zosconnect.ui.connections.type.adminapi, {READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false}]
+2022/06/08 12:43:04.479 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0]
+2022/06/08 12:43:04.479 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/08 12:43:04.479 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/08 12:43:04.479 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0@local]
+2022/06/08 12:43:04.479 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.updateConnectionParameters() [ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654706584479-0@local,
+	name=Zconnect desarrollo
+]]
+2022/06/08 12:43:04.481 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/08 12:43:04.481 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/08 12:43:04.483 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.updateConnectionParameters() [ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654706584479-0@local,
+	name=Zconnect desarrollo
+]]
+2022/06/08 12:43:04.483 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.createNewConnectionParameters() [ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654706584479-0@local,
+	name=Zconnect desarrollo
+]]
+2022/06/08 12:43:04.483 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/08 12:43:04.483 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654706584479-0@local,
+	name=Zconnect desarrollo
+]]]
+2022/06/08 12:43:04.484 VET [1] > com.ibm.cics.core.connections.internal.ConnectionUtils.getInternalId() [1654706584479-0@local]
+2022/06/08 12:43:04.484 VET [1] < com.ibm.cics.core.connections.internal.ConnectionUtils.getInternalId() [1654706584479-0]
+2022/06/08 12:43:04.484 VET [1] > com.ibm.cics.core.connections.internal.WritableConnectionProvider.getExternalId() [1654706584479-0]
+2022/06/08 12:43:04.484 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/08 12:43:04.484 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/08 12:43:04.484 VET [1] < com.ibm.cics.core.connections.internal.WritableConnectionProvider.getExternalId() [1654706584479-0@local]
+2022/06/08 12:43:04.484 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/08 12:43:04.484 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654706584479-0@local,
+	name=Zconnect desarrollo
+]]]
+2022/06/08 12:43:04.485 VET [1] > com.ibm.cics.core.connections.internal.ConnectionUtils.getInternalId() [1654706584479-0@local]
+2022/06/08 12:43:04.485 VET [1] < com.ibm.cics.core.connections.internal.ConnectionUtils.getInternalId() [1654706584479-0]
+2022/06/08 12:43:04.549 VET [1] > com.ibm.cics.core.connections.internal.ConnectionService.connect() [1654706584479-0@local]
+2022/06/08 12:43:04.551 VET [41] > com.ibm.cics.core.connections.internal.ConnectionService.connect() [configurationId=1654706584479-0@local]
+2022/06/08 12:43:04.551 VET [41] > com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting() [connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@ff775972]
+2022/06/08 12:43:04.551 VET [41] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@5c8800de]
+2022/06/08 12:43:04.551 VET [41] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@5c8800de]
+2022/06/08 12:43:04.551 VET [41] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/08 12:43:04.551 VET [41] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/08 12:43:04.551 VET [41] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@5c8800de]
+2022/06/08 12:43:04.552 VET [41] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/06/08 12:43:04.552 VET [41] < com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting()
+2022/06/08 12:43:04.552 VET [41] > com.ibm.cics.core.connections.internal.ConnectionService.doConnect() [configurationId=1654706584479-0@local]
+2022/06/08 12:43:13.179 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/08 12:43:13.179 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/08 12:43:13.242 VET [41] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/08 12:43:13.243 VET [41] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/08 12:43:13.321 VET [41] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/08 12:43:13.322 VET [41] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/08 12:43:14.297 VET [41] > com.ibm.cics.core.connections.internal.ConnectionService.notifyConnected() [connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@ff775972, configuration=com.ibm.cics.core.connections.ConnectionProfile[Zconnect desarrollo (10.0.4.10:7080) ]]
+2022/06/08 12:43:14.297 VET [41] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$ConnectedEvent@b8c0af55]
+2022/06/08 12:43:14.304 VET [41] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectedEvent@b8c0af55]
+2022/06/08 12:43:14.304 VET [41] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/08 12:43:14.304 VET [41] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/08 12:43:14.304 VET [41] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectedEvent@b8c0af55]
+2022/06/08 12:43:14.305 VET [41] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/06/08 12:43:14.305 VET [41] < com.ibm.cics.core.connections.internal.ConnectionService.notifyConnected()
+2022/06/08 12:46:42.428 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 12:46:42.428 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 15:01:37.059 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@9b4855} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7d37004f} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:01:37.076 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@15d9d95f} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f1d984d2} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:03:50.020 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@aef7d6eb} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@c4d3380c} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:03:50.024 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e88affe2} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@efe26896} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:04:41.513 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@787b349c} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@299ab4fd} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:04:41.517 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@86a010f2} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@462d0369} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+com.ibm.cics.eclipse.common.runtime_3.0.0.201908281947
+2022/06/10 10:52:07.820 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2022/06/10 10:52:08.380 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 10:52:08.380 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 10:52:08.380 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:52:08.380 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:52:08.380 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:52:08.380 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:52:08.458 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2022/06/10 10:52:08.464 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2022/06/10 10:52:08.465 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2022/06/10 10:52:08.472 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@f3f06786]
+2022/06/10 10:52:08.472 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@49f78121]
+2022/06/10 10:52:08.472 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 10:52:08.472 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@b8b9754b]
+2022/06/10 10:52:08.549 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0]
+2022/06/10 10:52:08.549 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/10 10:52:08.549 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/10 10:52:08.549 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0@local]
+2022/06/10 10:52:08.550 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 10:52:08.550 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 10:52:08.550 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 10:52:08.550 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 10:52:08.551 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 10:52:08.551 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@3ce6]
+2022/06/10 10:52:08.551 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 10:52:08.551 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 10:52:08.622 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@70458a5]
+2022/06/10 10:52:08.622 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@8b5be620]
+2022/06/10 10:52:08.622 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 10:52:08.622 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@90c08643]
+2022/06/10 10:52:08.623 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 10:52:08.623 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 10:52:08.623 VET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@70458a5 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 10:52:08.624 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 10:52:08.624 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2022/06/10 10:52:08.624 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2022/06/10 10:52:08.624 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 10:52:08.626 VET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2022/06/10 10:52:08.632 VET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2022/06/10 10:52:08.633 VET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2022/06/10 10:52:08.633 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 10:52:08.633 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/10 10:52:08.633 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@373d2257]
+2022/06/10 10:52:08.633 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 10:52:08.633 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 10:52:08.633 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654706584479-0@local,
+	name=Zconnect desarrollo
+]]]
+2022/06/10 10:52:08.636 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@f8d7b657]
+2022/06/10 10:52:08.636 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 10:52:08.636 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@97b698aa]
+2022/06/10 10:52:08.636 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/10 10:52:08.636 VET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@b1947ed3]
+2022/06/10 10:52:08.646 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 10:52:08.646 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 10:52:12.658 VET [29] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@a6f0abfd]
+2022/06/10 10:52:12.659 VET [29] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2022/06/10 10:52:12.894 VET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2022/06/10 10:52:12.894 VET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/10 10:52:12.894 VET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/10 10:52:12.916 VET [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@fcd0d1a6, org.eclipse.ui.internal.WorkbenchWindow@6f24885d]
+2022/06/10 10:52:42.009 VET [55] > com.ibm.cics.core.connections.internal.ConnectionService.connect() [configurationId=1654706584479-0@local]
+2022/06/10 10:52:42.009 VET [55] > com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting() [connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@fc40182d]
+2022/06/10 10:52:42.009 VET [55] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@3429246c]
+2022/06/10 10:52:42.012 VET [55] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@3429246c]
+2022/06/10 10:52:42.012 VET [55] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/10 10:52:42.012 VET [55] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/10 10:52:42.012 VET [55] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@3429246c]
+2022/06/10 10:52:42.013 VET [55] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/06/10 10:52:42.013 VET [55] < com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting()
+2022/06/10 10:52:42.013 VET [55] > com.ibm.cics.core.connections.internal.ConnectionService.doConnect() [configurationId=1654706584479-0@local]
+2022/06/10 10:52:47.362 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/10 10:52:47.362 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/10 10:52:47.476 VET [55] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:52:47.476 VET [55] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:52:47.552 VET [55] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:52:47.552 VET [55] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:52:47.981 VET [55] > com.ibm.cics.core.connections.internal.ConnectionService.notifyConnected() [connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@fc40182d, configuration=com.ibm.cics.core.connections.ConnectionProfile[Zconnect desarrollo (10.0.4.10:7080) ]]
+2022/06/10 10:52:47.981 VET [55] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$ConnectedEvent@6a584234]
+2022/06/10 10:52:47.998 VET [55] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectedEvent@6a584234]
+2022/06/10 10:52:47.998 VET [55] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/10 10:52:47.998 VET [55] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/10 10:52:47.998 VET [55] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectedEvent@6a584234]
+2022/06/10 10:52:47.999 VET [55] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/06/10 10:52:47.999 VET [55] < com.ibm.cics.core.connections.internal.ConnectionService.notifyConnected()
+2022/06/10 10:54:17.866 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 10:54:17.866 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 10:54:48.007 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@208df3a7} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b43a8942} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/10 10:54:48.047 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@870284c6} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@531e0a47} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+com.ibm.cics.eclipse.common.runtime_3.0.0.201908281947
+2022/06/10 11:02:19.944 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2022/06/10 11:02:20.508 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 11:02:20.508 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 11:02:20.508 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:02:20.508 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:02:20.508 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:02:20.508 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:02:20.536 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2022/06/10 11:02:20.541 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2022/06/10 11:02:20.541 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2022/06/10 11:02:20.547 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@ea3e300d]
+2022/06/10 11:02:20.548 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@26af9702]
+2022/06/10 11:02:20.548 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:02:20.548 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@7cc7d9f4]
+2022/06/10 11:02:20.589 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0]
+2022/06/10 11:02:20.589 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/10 11:02:20.589 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/10 11:02:20.589 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0@local]
+2022/06/10 11:02:20.589 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 11:02:20.589 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 11:02:20.590 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 11:02:20.590 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 11:02:20.590 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 11:02:20.590 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@3ce6]
+2022/06/10 11:02:20.590 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 11:02:20.590 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 11:02:20.661 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@95692767]
+2022/06/10 11:02:20.661 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@de0ab84d]
+2022/06/10 11:02:20.661 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:02:20.661 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@9b567b1]
+2022/06/10 11:02:20.662 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 11:02:20.662 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 11:02:20.662 VET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@95692767 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 11:02:20.662 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 11:02:20.662 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2022/06/10 11:02:20.662 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2022/06/10 11:02:20.662 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 11:02:20.664 VET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2022/06/10 11:02:20.668 VET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2022/06/10 11:02:20.669 VET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2022/06/10 11:02:20.669 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 11:02:20.669 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654706584479-0@local,
+	name=Zconnect desarrollo
+]]]
+2022/06/10 11:02:20.670 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@4b85d4b3]
+2022/06/10 11:02:20.670 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:02:20.670 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 11:02:20.670 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/10 11:02:20.670 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@9377ed61]
+2022/06/10 11:02:20.670 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:02:20.670 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@e51161ea]
+2022/06/10 11:02:20.670 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/10 11:02:20.670 VET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@4f46d7d9]
+2022/06/10 11:02:20.682 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 11:02:20.682 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 11:02:24.350 VET [38] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@b49d5667]
+2022/06/10 11:02:24.350 VET [38] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2022/06/10 11:02:24.868 VET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2022/06/10 11:02:24.868 VET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/10 11:02:24.869 VET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/10 11:02:24.878 VET [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@5de680ec, org.eclipse.ui.internal.WorkbenchWindow@b1e3e7dd]
+2022/06/10 11:02:53.528 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@c52b59d2} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@1b84621e} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/10 11:02:53.543 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bc9934fd} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b7f78b7b} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/10 11:03:12.372 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@85e07f61} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d5cb66c9} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/10 11:03:12.379 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7dbb26a6} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@54741c78} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+com.ibm.cics.eclipse.common.runtime_3.0.0.201908281947
+2022/06/10 11:17:26.645 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2022/06/10 11:17:27.378 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 11:17:27.378 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 11:17:27.378 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:17:27.378 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:17:27.378 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:17:27.378 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:17:27.502 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2022/06/10 11:17:27.525 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2022/06/10 11:17:27.525 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2022/06/10 11:17:27.531 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@459a58b]
+2022/06/10 11:17:27.531 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@854f40d3]
+2022/06/10 11:17:27.531 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@854f40d3]
+2022/06/10 11:17:27.531 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@854f40d3]]
+2022/06/10 11:17:27.531 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:17:27.531 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@8e47fe2f]
+2022/06/10 11:17:27.575 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0]
+2022/06/10 11:17:27.575 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/10 11:17:27.575 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/10 11:17:27.575 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0@local]
+2022/06/10 11:17:27.575 VET [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProvider$ConnectionParametersAddedEvent@359be067]
+2022/06/10 11:17:27.575 VET [1] Notifying: com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@854f40d3 com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.575 VET [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.575 VET [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProvider$ConnectionProviderStatusChangedEvent@e30c81fb]
+2022/06/10 11:17:27.575 VET [1] Notifying: com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@854f40d3 com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.575 VET [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.575 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 11:17:27.576 VET [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProviderRegistry$ConnectionProviderAddedEvent@cd987f1]
+2022/06/10 11:17:27.576 VET [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.576 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 11:17:27.576 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 11:17:27.576 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 11:17:27.576 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 11:17:27.577 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@3ce6]
+2022/06/10 11:17:27.577 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 11:17:27.577 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 11:17:27.721 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@a6585ac2]
+2022/06/10 11:17:27.721 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@dcc67f76]
+2022/06/10 11:17:27.721 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@dcc67f76]
+2022/06/10 11:17:27.721 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@dcc67f76]]
+2022/06/10 11:17:27.721 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:17:27.721 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@f25889a5]
+2022/06/10 11:17:27.722 VET [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProvider$ConnectionProviderStatusChangedEvent@5091bc94]
+2022/06/10 11:17:27.722 VET [1] Notifying: com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@dcc67f76 com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.722 VET [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.722 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 11:17:27.722 VET [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.IConnectionProviderRegistry$ConnectionProviderAddedEvent@381b6774]
+2022/06/10 11:17:27.722 VET [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.722 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 11:17:27.722 VET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@a6585ac2 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 11:17:27.722 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 11:17:27.722 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2022/06/10 11:17:27.722 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2022/06/10 11:17:27.722 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 11:17:27.725 VET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2022/06/10 11:17:27.725 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionCredentialsManager$1@a7cfbbe6]
+2022/06/10 11:17:27.725 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionCredentialsManager$1@a7cfbbe6]]
+2022/06/10 11:17:27.739 VET [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [ConnectionCredentialsChangedEvent [connectionId=1654706584479-0@local, credentials=com.ibm.cics.core.comm.CredentialsConfiguration@a683e6a[id=1654706593164-1, name=b123595, userid=b123595, password-is-empty=false, savePassword=true, oneTimePassword=false]]]
+2022/06/10 11:17:27.739 VET [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.739 VET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2022/06/10 11:17:27.740 VET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2022/06/10 11:17:27.740 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$1@7936356d]
+2022/06/10 11:17:27.740 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionManager$1@7936356d]]
+2022/06/10 11:17:27.741 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 11:17:27.741 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654706584479-0@local,
+	name=Zconnect desarrollo
+]]]
+2022/06/10 11:17:27.741 VET [1] > com.ibm.cics.common.util.EventManager.notifyListeners() [com.ibm.cics.core.connections.ConnectionManagerListener$ConnectionProfileAddedEvent@c3e63f5f]
+2022/06/10 11:17:27.741 VET [1] < com.ibm.cics.common.util.EventManager.notifyListeners()
+2022/06/10 11:17:27.741 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@c9123cac]
+2022/06/10 11:17:27.741 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@c9123cac]
+2022/06/10 11:17:27.741 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@854f40d3, com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@c9123cac]]
+2022/06/10 11:17:27.741 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:17:27.741 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 11:17:27.741 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/10 11:17:27.741 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@4009e74a]
+2022/06/10 11:17:27.741 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@4009e74a]
+2022/06/10 11:17:27.741 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@dcc67f76, com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@4009e74a]]
+2022/06/10 11:17:27.741 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:17:27.741 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@3fa0d686]
+2022/06/10 11:17:27.741 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@3fa0d686]
+2022/06/10 11:17:27.742 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.ConnectionManager$2@3fa0d686]]
+2022/06/10 11:17:27.742 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/10 11:17:27.742 VET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@9b3f1f46]
+2022/06/10 11:17:27.743 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.DefaultConnectionService$1@a330967f]
+2022/06/10 11:17:27.743 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@a330967f]]
+2022/06/10 11:17:27.743 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.DefaultConnectionDeserializer$1@b1e4416a]
+2022/06/10 11:17:27.743 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionDeserializer$1@b1e4416a]]
+2022/06/10 11:17:27.748 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.ConnectionService$2@a4927390]
+2022/06/10 11:17:27.748 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@a330967f, com.ibm.cics.core.connections.internal.ConnectionService$2@a4927390]]
+2022/06/10 11:17:27.748 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@1bfd2513]
+2022/06/10 11:17:27.748 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@1bfd2513]]
+2022/06/10 11:17:27.749 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.ConnectionWidgetManager$2@3c6146fd]
+2022/06/10 11:17:27.749 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@1bfd2513, com.ibm.cics.core.connections.ConnectionWidgetManager$2@3c6146fd]]
+2022/06/10 11:17:27.749 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.cics.core.connections.ConnectionWidgetManager$1@8207e3ff]
+2022/06/10 11:17:27.749 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@a330967f, com.ibm.cics.core.connections.internal.ConnectionService$2@a4927390, com.ibm.cics.core.connections.ConnectionWidgetManager$1@8207e3ff]]
+2022/06/10 11:17:27.749 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 11:17:27.749 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 11:17:31.648 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.zosconnect.ui.nav.HostConnectionServiceListener@8ec4e624]
+2022/06/10 11:17:31.648 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.InternalConnectionsPlugin$1@1bfd2513, com.ibm.cics.core.connections.ConnectionWidgetManager$2@3c6146fd, com.ibm.zosconnect.ui.nav.HostConnectionServiceListener@8ec4e624]]
+2022/06/10 11:17:31.649 VET [1] > com.ibm.cics.common.util.EventManager.addListener() [com.ibm.zosconnect.ui.nav.HostConnectionManagerListener@73520565]
+2022/06/10 11:17:31.649 VET [1] < com.ibm.cics.common.util.EventManager.addListener() [[com.ibm.cics.core.connections.internal.DefaultConnectionService$1@a330967f, com.ibm.cics.core.connections.internal.ConnectionService$2@a4927390, com.ibm.cics.core.connections.ConnectionWidgetManager$1@8207e3ff, com.ibm.zosconnect.ui.nav.HostConnectionManagerListener@73520565]]
+2022/06/10 11:17:32.885 VET [37] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@976ad635]
+2022/06/10 11:17:32.885 VET [37] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2022/06/10 11:17:33.390 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7f3693f9} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6665c570} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/10 11:17:33.444 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@4fab92c1} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@ea34410b} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+com.ibm.cics.eclipse.common.runtime_3.0.0.201908281947
+2022/06/28 16:05:08.861 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2022/06/28 16:05:09.410 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/28 16:05:09.410 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/28 16:05:09.410 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/28 16:05:09.410 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/28 16:05:09.410 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/28 16:05:09.410 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/28 16:05:09.455 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2022/06/28 16:05:09.471 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2022/06/28 16:05:09.472 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2022/06/28 16:05:09.478 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@83b68987]
+2022/06/28 16:05:09.478 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@face5c04]
+2022/06/28 16:05:09.478 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/28 16:05:09.478 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@c4a9c618]
+2022/06/28 16:05:09.520 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0]
+2022/06/28 16:05:09.520 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/28 16:05:09.520 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/28 16:05:09.520 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654706584479-0@local]
+2022/06/28 16:05:09.521 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/28 16:05:09.521 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/28 16:05:09.521 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/28 16:05:09.522 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/28 16:05:09.522 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/28 16:05:09.522 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@3ce6]
+2022/06/28 16:05:09.522 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/28 16:05:09.522 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/28 16:05:09.607 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@43bd41a7]
+2022/06/28 16:05:09.607 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@d9bf500e]
+2022/06/28 16:05:09.607 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/28 16:05:09.607 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@4ae05f34]
+2022/06/28 16:05:09.608 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/28 16:05:09.608 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/28 16:05:09.608 VET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@43bd41a7 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/28 16:05:09.608 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/28 16:05:09.608 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2022/06/28 16:05:09.608 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2022/06/28 16:05:09.608 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/28 16:05:09.610 VET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2022/06/28 16:05:09.616 VET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/WorkSpace Proyecto Zconnect/BSF5136P/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2022/06/28 16:05:09.618 VET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2022/06/28 16:05:09.618 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/28 16:05:09.618 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654706584479-0@local,
+	name=Zconnect desarrollo
+]]]
+2022/06/28 16:05:09.619 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@a9bbef2f]
+2022/06/28 16:05:09.619 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/28 16:05:09.619 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/28 16:05:09.619 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/28 16:05:09.619 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@3356774a]
+2022/06/28 16:05:09.619 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/28 16:05:09.619 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@db0f0769]
+2022/06/28 16:05:09.619 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/28 16:05:09.619 VET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@7b6ab928]
+2022/06/28 16:05:09.629 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/28 16:05:09.629 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/28 16:05:14.464 VET [38] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@1fbd90e4]
+2022/06/28 16:05:14.465 VET [38] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2022/06/28 16:05:14.477 VET [38] - com.ibm.cics.zos.model.ZOSConnectable.<init>() [com.ibm.cics.zos.model.ZOSConnectable@101ac1dd]
+2022/06/28 16:05:14.696 VET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2022/06/28 16:05:14.696 VET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/28 16:05:14.696 VET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/28 16:05:14.718 VET [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@66045418, org.eclipse.ui.internal.WorkbenchWindow@c2c10dba]
+2022/06/28 16:05:17.332 VET [44] > com.ibm.cics.core.connections.internal.ConnectionService.connect() [configurationId=1654706584479-0@local]
+2022/06/28 16:05:17.332 VET [44] > com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting() [connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@807b2fd4]
+2022/06/28 16:05:17.332 VET [44] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@7ed89e1d]
+2022/06/28 16:05:17.334 VET [44] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@7ed89e1d]
+2022/06/28 16:05:17.335 VET [44] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/28 16:05:17.335 VET [44] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/28 16:05:17.335 VET [44] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@7ed89e1d]
+2022/06/28 16:05:17.335 VET [44] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/06/28 16:05:17.335 VET [44] < com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting()
+2022/06/28 16:05:17.335 VET [44] > com.ibm.cics.core.connections.internal.ConnectionService.doConnect() [configurationId=1654706584479-0@local]
+2022/06/28 16:05:17.348 VET [44] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/28 16:05:17.348 VET [44] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/28 16:05:17.457 VET [44] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/28 16:05:17.457 VET [44] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/28 16:05:17.833 VET [44] > com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/28 16:05:17.833 VET [44] < com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/28 16:05:17.856 VET [1] > com.ibm.cics.core.connections.internal.ConnectionService.disconnect() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/28 16:05:17.856 VET [1] - com.ibm.cics.core.connections.internal.ConnectionService.disconnect() [false]
+2022/06/28 16:05:17.857 VET [1] > com.ibm.cics.core.connections.internal.ConnectionService.notifyDisconnected() [ConnectionCategory[z/OS Connect Enterprise Edition], connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@807b2fd4, configuration=com.ibm.cics.core.connections.ConnectionProfile[Zconnect desarrollo (10.0.4.10:7080) ]]
+2022/06/28 16:05:17.857 VET [1] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$DisconnectedEvent@b7f08d8f]
+2022/06/28 16:05:17.857 VET [1] - com.ibm.cics.core.connections.internal.ConnectionService.disconnected() [null]
+2022/06/28 16:05:17.857 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$DisconnectedEvent@b7f08d8f]
+2022/06/28 16:05:17.857 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/28 16:05:17.857 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/28 16:05:17.857 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$DisconnectedEvent@b7f08d8f]
+2022/06/28 16:05:17.860 VET [1] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/06/28 16:05:17.860 VET [1] < com.ibm.cics.core.connections.internal.ConnectionService.notifyDisconnected()
+2022/06/28 16:05:17.907 VET [44] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized]
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+

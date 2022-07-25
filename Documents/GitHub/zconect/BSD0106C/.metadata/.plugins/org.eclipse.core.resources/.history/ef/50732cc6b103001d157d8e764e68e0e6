@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:message xmlns:ns2="http://www.ibm.com/ims/Transaction" transactionCode="" messageName="BSD0106C" direction="0" serviceType="CICS_COMM_AREA">
+    <message id="1" name="BSD0106C">
+        <segment id="1" name="COMMAREA" originalName="COMMAREA"/>
+    </message>
+</ns2:message>

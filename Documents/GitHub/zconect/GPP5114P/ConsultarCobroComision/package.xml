@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zosConnectApi xmlns="http://www.ibm.com/zosConnect/2.0/zosConnectApi" id="consultarCobroComision">
+    <apiSpec title="consultarCobroComision" basePath="/GPP5114P" description="Servicio: Manejo_Cuentas_De_Deposito&#xD;&#xA;Metodo:  Consultar_Cobro_Cmision" version="1.0.0">
+        <path relativePath="/v1/safe/consultarCobroComision">
+            <method type="POST" zosConnectServiceRef="GPP5114P" operationId="postGPP5114P"/>
+        </path>
+        <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
+    </apiSpec>
+</zosConnectApi>

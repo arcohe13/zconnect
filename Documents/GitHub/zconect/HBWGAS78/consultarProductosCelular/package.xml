@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zosConnectApi xmlns="http://www.ibm.com/zosConnect/2.0/zosConnectApi" id="consultarProductosCelular">
+    <apiSpec title="consultarProductosCelular" basePath="/HBWGAS78" description="Servicio:Datos_Del_Cliente&#xD;&#xA;Metodo: Consultar_Productos_Celular" version="1.0.0">
+        <path relativePath="/v1/safe/consultarProductosCelular">
+            <method type="POST" zosConnectServiceRef="HBWGAS78" httpXformFile="api/v1/safe/consultarProductosCelular/POST/mapping.xml" operationId="postHBWGAS78"/>
+        </path>
+        <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
+    </apiSpec>
+</zosConnectApi>

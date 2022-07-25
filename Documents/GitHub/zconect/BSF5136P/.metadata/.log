@@ -1,0 +1,145 @@
+!SESSION 2022-06-08 12:41:21.618 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-06-08 12:43:14.299
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:01:37.057
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@9b4855} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7d37004f}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:01:37.073
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@15d9d95f} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f1d984d2}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:03:50.017
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@aef7d6eb} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@c4d3380c}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:03:50.021
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e88affe2} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@efe26896}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:04:41.509
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@787b349c} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@299ab4fd}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:04:41.514
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@86a010f2} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@462d0369}
+!SESSION 2022-06-10 10:51:40.517 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-06-10 10:52:47.983
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 10:54:48.004
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@208df3a7} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b43a8942}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 10:54:48.043
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@870284c6} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@531e0a47}
+!SESSION 2022-06-10 11:01:59.550 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:02:53.524
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@c52b59d2} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@1b84621e}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:02:53.540
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bc9934fd} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b7f78b7b}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:03:12.368
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@85e07f61} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d5cb66c9}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:03:12.375
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7dbb26a6} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@54741c78}
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-06-10 11:03:48.391
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+!SESSION 2022-06-10 11:14:52.467 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:17:33.361
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7f3693f9} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6665c570}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:17:33.440
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@4fab92c1} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@ea34410b}
+!SESSION 2022-06-10 12:00:49.355 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-06-10 12:01:30.573
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+!SESSION 2022-06-28 16:04:46.711 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-06-28 16:05:17.867
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-06-28 16:05:17.948
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "Zconnect desarrollo" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (Zconnect desarrollo)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "Zconnect desarrollo" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-06-28 16:05:28.184
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595

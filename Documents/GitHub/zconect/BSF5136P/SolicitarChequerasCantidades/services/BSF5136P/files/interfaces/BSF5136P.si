@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:message xmlns:ns2="http://www.ibm.com/ims/Transaction" transactionCode="" messageName="BSF5136P" direction="0" serviceType="CICS_COMM_AREA">
+    <message id="1" name="BSF5136P">
+        <segment id="1" name="COMMAREA" originalName="COMMAREA">
+            <field name="COMMAREA_BSF5136P" originalName="COMMAREA_BSF5136P" included="Y" path="COMMAREA_BSF5136P">
+                <startPos>1</startPos>
+                <bytes>1829</bytes>
+                <maxBytes>1829</maxBytes>
+                <applicationDatatype datatype="STRUCT"/>
+                <field name="HEADER_ENTRADA" originalName="HEADER_ENTRADA" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA">
+                    <startPos>1</startPos>
+                    <bytes>594</bytes>
+                    <maxBytes>594</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="IDENTIFICADOR_UNICO_GLOBAL" originalName="IDENTIFICADOR_UNICO_GLOBAL" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.IDENTIFICADOR_UNICO_GLOBAL">
+                        <startPos>1</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="IDENTIFICACION_CANAL" originalName="IDENTIFICACION_CANAL" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.IDENTIFICACION_CANAL">
+                        <startPos>251</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="SIGLA_APLICACION" originalName="SIGLA_APLICACION" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.SIGLA_APLICACION">
+                        <startPos>255</startPos>
+                        <bytes>3</bytes>
+                        <maxBytes>3</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="IDENTIFICACION_USUARIO" originalName="IDENTIFICACION_USUARIO" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.IDENTIFICACION_USUARIO">
+                        <startPos>258</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="DIRECCION_IP_CONSUMIDOR" originalName="DIRECCION_IP_CONSUMIDOR" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.DIRECCION_IP_CONSUMIDOR">
+                        <startPos>268</startPos>
+                        <bytes>20</bytes>
+                        <maxBytes>20</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="DIRECCION_IP_CLIENTE" originalName="DIRECCION_IP_CLIENTE" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.DIRECCION_IP_CLIENTE">
+                        <startPos>288</startPos>
+                        <bytes>20</bytes>
+                        <maxBytes>20</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="FECHA_ENVIO_MENSAJE" originalName="FECHA_ENVIO_MENSAJE" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.FECHA_ENVIO_MENSAJE">
+                        <startPos>308</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="HORA_ENVIO_MENSAJE" originalName="HORA_ENVIO_MENSAJE" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.HORA_ENVIO_MENSAJE">
+                        <startPos>316</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="ATRIBUTO_PAGINEO" originalName="ATRIBUTO_PAGINEO" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.ATRIBUTO_PAGINEO">
+                        <startPos>326</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CLAVE_BUSQUEDA" originalName="CLAVE_BUSQUEDA" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.CLAVE_BUSQUEDA">
+                        <startPos>336</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CANTIDAD_REGISTROS" originalName="CANTIDAD_REGISTROS" included="Y" path="COMMAREA_BSF5136P.HEADER_ENTRADA.CANTIDAD_REGISTROS">
+                        <startPos>586</startPos>
+                        <bytes>9</bytes>
+                        <maxBytes>9</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="9" scale="0"/>
+                    </field>
+                </field>
+                <field name="BODY_ENTRADA_GENERAR_CHEQUERAS" originalName="BODY_ENTRADA_GENERAR_CHEQUERAS" included="Y" path="COMMAREA_BSF5136P.BODY_ENTRADA_GENERAR_CHEQUERAS">
+                    <startPos>595</startPos>
+                    <bytes>45</bytes>
+                    <maxBytes>45</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="CODIGO_TRANSACCION" originalName="CODIGO_TRANSACCION" included="Y" path="COMMAREA_BSF5136P.BODY_ENTRADA_GENERAR_CHEQUERAS.CODIGO_TRANSACCION">
+                        <startPos>595</startPos>
+                        <bytes>6</bytes>
+                        <maxBytes>6</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="INDICADOR_REVERSO" originalName="INDICADOR_REVERSO" included="Y" path="COMMAREA_BSF5136P.BODY_ENTRADA_GENERAR_CHEQUERAS.INDICADOR_REVERSO">
+                        <startPos>601</startPos>
+                        <bytes>1</bytes>
+                        <maxBytes>1</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="NUMERO_TERMINAL" originalName="NUMERO_TERMINAL" included="Y" path="COMMAREA_BSF5136P.BODY_ENTRADA_GENERAR_CHEQUERAS.NUMERO_TERMINAL">
+                        <startPos>602</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CODIGO_SUBCANAL" originalName="CODIGO_SUBCANAL" included="Y" path="COMMAREA_BSF5136P.BODY_ENTRADA_GENERAR_CHEQUERAS.CODIGO_SUBCANAL">
+                        <startPos>606</startPos>
+                        <bytes>2</bytes>
+                        <maxBytes>2</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="2" scale="0"/>
+                    </field>
+                    <field name="TIPO_CUENTA" originalName="TIPO_CUENTA" included="Y" path="COMMAREA_BSF5136P.BODY_ENTRADA_GENERAR_CHEQUERAS.TIPO_CUENTA">
+                        <startPos>608</startPos>
+                        <bytes>2</bytes>
+                        <maxBytes>2</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="NUMERO_CUENTA" originalName="NUMERO_CUENTA" included="Y" path="COMMAREA_BSF5136P.BODY_ENTRADA_GENERAR_CHEQUERAS.NUMERO_CUENTA">
+                        <startPos>610</startPos>
+                        <bytes>20</bytes>
+                        <maxBytes>20</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CANTIDAD_CHEQUES" originalName="CANTIDAD_CHEQUES" included="Y" path="COMMAREA_BSF5136P.BODY_ENTRADA_GENERAR_CHEQUERAS.CANTIDAD_CHEQUES">
+                        <startPos>630</startPos>
+                        <bytes>2</bytes>
+                        <maxBytes>2</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="2" scale="0"/>
+                    </field>
+                    <field name="PRIMER_SERIAL_CHEQUERA" originalName="PRIMER_SERIAL_CHEQUERA" included="Y" path="COMMAREA_BSF5136P.BODY_ENTRADA_GENERAR_CHEQUERAS.PRIMER_SERIAL_CHEQUERA">
+                        <startPos>632</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="8" scale="0"/>
+                    </field>
+                </field>
+                <field name="HEADER_SALIDA" originalName="HEADER_SALIDA" included="Y" path="COMMAREA_BSF5136P.HEADER_SALIDA">
+                    <startPos>640</startPos>
+                    <bytes>527</bytes>
+                    <maxBytes>527</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="TIPO_MENSAJE" originalName="TIPO_MENSAJE" included="Y" path="COMMAREA_BSF5136P.HEADER_SALIDA.TIPO_MENSAJE">
+                        <startPos>640</startPos>
+                        <bytes>1</bytes>
+                        <maxBytes>1</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="MENSAJE_PROGRAMADOR_SISTEMA" originalName="MENSAJE_PROGRAMADOR_SISTEMA" included="Y" path="COMMAREA_BSF5136P.HEADER_SALIDA.MENSAJE_PROGRAMADOR_SISTEMA">
+                        <startPos>641</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CODIGO_MENSAJE_PROGRAMADOR" originalName="CODIGO_MENSAJE_PROGRAMADOR" included="Y" path="COMMAREA_BSF5136P.HEADER_SALIDA.CODIGO_MENSAJE_PROGRAMADOR">
+                        <startPos>891</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="MENSAJE_USUARIO" originalName="MENSAJE_USUARIO" included="Y" path="COMMAREA_BSF5136P.HEADER_SALIDA.MENSAJE_USUARIO">
+                        <startPos>895</startPos>
+                        <bytes>250</bytes>
+                        <maxBytes>250</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CODIGO_MENSAJE_USUARIO" originalName="CODIGO_MENSAJE_USUARIO" included="Y" path="COMMAREA_BSF5136P.HEADER_SALIDA.CODIGO_MENSAJE_USUARIO">
+                        <startPos>1145</startPos>
+                        <bytes>4</bytes>
+                        <maxBytes>4</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="FECHA_SALIDA_MENSAJE" originalName="FECHA_SALIDA_MENSAJE" included="Y" path="COMMAREA_BSF5136P.HEADER_SALIDA.FECHA_SALIDA_MENSAJE">
+                        <startPos>1149</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="HORA_SALIDA_MENSAJE" originalName="HORA_SALIDA_MENSAJE" included="Y" path="COMMAREA_BSF5136P.HEADER_SALIDA.HORA_SALIDA_MENSAJE">
+                        <startPos>1157</startPos>
+                        <bytes>10</bytes>
+                        <maxBytes>10</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                </field>
+                <field name="BODY_SALIDA_GENERAR_CHEQUERAS" originalName="BODY_SALIDA_GENERAR_CHEQUERAS" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS">
+                    <startPos>1167</startPos>
+                    <bytes>663</bytes>
+                    <maxBytes>663</maxBytes>
+                    <applicationDatatype datatype="STRUCT"/>
+                    <field name="NUMERO_APROBACION" originalName="NUMERO_APROBACION" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.NUMERO_APROBACION">
+                        <startPos>1167</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="8" scale="0"/>
+                    </field>
+                    <field name="MONTO_COMISION" originalName="MONTO_COMISION" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.MONTO_COMISION">
+                        <startPos>1175</startPos>
+                        <bytes>15</bytes>
+                        <maxBytes>15</maxBytes>
+                        <marshaller isSigned="Y" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="15" scale="2"/>
+                    </field>
+                    <field name="NOMBRE_CLIENTE" originalName="NOMBRE_CLIENTE" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.NOMBRE_CLIENTE">
+                        <startPos>1190</startPos>
+                        <bytes>150</bytes>
+                        <maxBytes>150</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="CODIGO_CUENTA_CLIENTE" originalName="CODIGO_CUENTA_CLIENTE" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.CODIGO_CUENTA_CLIENTE">
+                        <startPos>1340</startPos>
+                        <bytes>20</bytes>
+                        <maxBytes>20</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="NOMBRE_OFICINA" originalName="NOMBRE_OFICINA" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.NOMBRE_OFICINA">
+                        <startPos>1360</startPos>
+                        <bytes>60</bytes>
+                        <maxBytes>60</maxBytes>
+                        <applicationDatatype datatype="CHAR"/>
+                    </field>
+                    <field name="FECHA_SAFE" originalName="FECHA_SAFE" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.FECHA_SAFE">
+                        <startPos>1420</startPos>
+                        <bytes>8</bytes>
+                        <maxBytes>8</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="8" scale="0"/>
+                    </field>
+                    <field name="CANTIDAD_CHEQUES" originalName="CANTIDAD_CHEQUES" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.CANTIDAD_CHEQUES">
+                        <startPos>1428</startPos>
+                        <bytes>2</bytes>
+                        <maxBytes>2</maxBytes>
+                        <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+                            <typeConverter>ZONEDDECIMAL</typeConverter>
+                        </marshaller>
+                        <applicationDatatype datatype="DECIMAL" precision="2" scale="0"/>
+                    </field>
+                    <field name="SERIALES" originalName="SERIALES" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.SERIALES" minOccurs="50" maxOccurs="50">
+                        <startPos>1430</startPos>
+                        <bytes>400</bytes>
+                        <maxBytes>400</maxBytes>
+                        <applicationDatatype datatype="ARRAY"/>
+                        <field name="DIGITO_SEGURIDAD" originalName="DIGITO_SEGURIDAD" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.SERIALES.DIGITO_SEGURIDAD">
+                            <bytes>2</bytes>
+                            <maxBytes>2</maxBytes>
+                            <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+<typeConverter>ZONEDDECIMAL</typeConverter>
+                            </marshaller>
+                            <applicationDatatype datatype="DECIMAL" precision="2" scale="0"/>
+                        </field>
+                        <field name="SERIAL_CHEQUE" originalName="SERIAL_CHEQUE" included="Y" path="COMMAREA_BSF5136P.BODY_SALIDA_GENERAR_CHEQUERAS.SERIALES.SERIAL_CHEQUE">
+                            <bytes>6</bytes>
+                            <maxBytes>6</maxBytes>
+                            <marshaller isSigned="N" isSignLeading="N" isSignSeparate="N" isWCHAROnly="N">
+<typeConverter>ZONEDDECIMAL</typeConverter>
+                            </marshaller>
+                            <applicationDatatype datatype="DECIMAL" precision="6" scale="0"/>
+                        </field>
+                    </field>
+                </field>
+            </field>
+        </segment>
+    </message>
+</ns2:message>

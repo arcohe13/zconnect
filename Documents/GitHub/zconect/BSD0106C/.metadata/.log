@@ -1,0 +1,1465 @@
+!SESSION 2022-07-14 14:37:59.808 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:08:06.650
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:08:06.803
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (ZConnect Desarrollo)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (ZConnect Desarrollo)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:08:17.388
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:08:17.402
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (ZConnect Desarrollo)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (ZConnect Desarrollo)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:08:33.117
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:08:33.133
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (ZConnect Desarrollo)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (ZConnect Desarrollo)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:09:22.496
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:09:22.518
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (Zconnect Desa)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (Zconnect Desa)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:09:28.729
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:09:28.745
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (Zconnect Desa)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (Zconnect Desa)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:10:13.749
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:10:13.772
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (Zconnect Desa)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (Zconnect Desa)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:10:44.192
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:10:44.209
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (Zconnect Desa)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (Zconnect Desa)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:11:31.603
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:11:31.625
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zconnect)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zconnect)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:12:56.321
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:12:56.337
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zconnect)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zconnect)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:15:25.193
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:15:25.220
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:18:04.691
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:18:04.713
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:19:19.810
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:19:19.829
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+!SESSION 2022-07-14 15:22:32.679 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:23:02.280
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:23:02.318
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:23:36.950
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:23:36.973
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:58:07.776
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:58:07.805
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+!SESSION 2022-07-14 15:59:05.999 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 15:59:54.455
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 15:59:54.506
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:02:08.412
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:02:08.433
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:02:17.643
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:02:17.654
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:02:47.738
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:02:47.772
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:03:07.342
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:03:07.364
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:04:14.184
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:04:14.216
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:05:22.704
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:05:22.730
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:06:08.273
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:06:08.287
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:06:21.727
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:06:21.751
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:07:07.095
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:07:07.125
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (zcc)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (zcc)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:07:41.970
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:07:41.999
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (dd)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (dd)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:08:37.113
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:08:37.135
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (dd)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (dd)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-14 16:09:26.865
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-14 16:09:26.895
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "sdfsd" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (sdfsd)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "sdfsd" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-07-14 16:10:08.311
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+
+!ENTRY com.ibm.etools.cobol 4 0 2022-07-14 16:15:53.196
+!MESSAGE *** CobolSourceResource.load(ResourceSet, String, InputStream , Object): Syntax errors found in a non IFile. Check in the syntaxerrors.xml file.
+
+!ENTRY org.eclipse.ui 4 4 2022-07-14 16:18:52.967
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@c9cc0c72} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@be88889c}
+
+!ENTRY org.eclipse.ui 4 4 2022-07-14 16:18:52.978
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@20a9ce1b} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@72d2891b}
+
+!ENTRY org.eclipse.ui 4 4 2022-07-14 16:19:12.504
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@3fb5cd1c} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6179d9b8}
+
+!ENTRY org.eclipse.ui 4 4 2022-07-14 16:19:12.514
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@9facc36d} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@498d3e1e}
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-18 09:46:03.648
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApi(ZosConnectAdminApi.java:188)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getApi(ZCeeAdminApiConnection.java:201)
+	at com.ibm.zosconnect.ui.controllers.jetty.SwaggerUIController$2.run(SwaggerUIController.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 4 more
+
+!ENTRY com.ibm.zosconnect.ui.controllers 4 0 2022-07-18 09:46:03.833
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApi(ZosConnectAdminApi.java:188)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getApi(ZCeeAdminApiConnection.java:201)
+	at com.ibm.zosconnect.ui.controllers.jetty.SwaggerUIController$2.run(SwaggerUIController.java:155)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 4 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-18 09:46:16.263
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-18 09:46:16.273
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (ewrew)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-18 09:47:05.931
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-18 09:47:05.943
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (ewrew)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-18 09:47:25.135
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-18 09:47:25.149
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (ewrew)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-18 09:48:38.055
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-18 09:48:38.066
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (ewrew)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-07-18 09:48:49.164
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-19 12:05:10.489
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-19 12:05:10.587
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "Ambiente desarrollo" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (Ambiente desarrollo)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "Ambiente desarrollo" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-19 12:10:23.941
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-19 12:10:23.955
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "Ambiente desarrollo" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (Ambiente desarrollo)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "Ambiente desarrollo" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-07-19 12:13:47.553
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - B059080
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-20 14:21:59.261
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-20 14:21:59.326
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (ewrew)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ewrew" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-20 14:24:46.977
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-20 14:24:47.003
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (desa)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (desa)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-20 14:25:20.501
+!MESSAGE 503, Service Unavailable
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-20 14:25:20.510
+!MESSAGE IZE0106E Connect failed with error "503, Service Unavailable" (desa)
+!STACK 0
+com.ibm.cics.core.comm.EnhancedConnectionException: IZE0106E Connect failed with error "503, Service Unavailable" (desa)
+	at com.ibm.cics.core.connections.internal.ConnectionService.enhanceExceptionMessage(ConnectionService.java:680)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:649)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	... 4 more
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 503, Service Unavailable
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-20 14:26:06.042
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-20 14:26:06.050
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "desa" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (desa)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "desa" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-20 14:26:34.597
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-20 14:26:34.609
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "desa" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (desa)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "desa" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.cics.core.connections.internal.ConnectionService$7.runSub(ConnectionService.java:878)
+	at com.ibm.cics.eclipse.common.ui.JobWithCancelingSupport$1.run(JobWithCancelingSupport.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-07-20 14:30:09.292
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595

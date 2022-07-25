@@ -1,0 +1,180 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "Validar los productos de cuentas de depositos",
+    "version" : "1.0.0",
+    "title" : "validarProductosCuentasDeposito"
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/HBWENT19",
+  "schemes" : [ "https", "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/v1/administrativo/validarProductosCuentasDeposito" : {
+      "post" : {
+        "tags" : [ "validarProductosCuentasDeposito" ],
+        "operationId" : "postHBWENT19",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "postHBWENT19_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postHBWENT19_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postHBWENT19_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "postHBWENT19_request" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_HBWENT19" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "IDENTIFICADOR_UNICO_GLOBAL" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "IDENTIFICACION_CANAL" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "SIGLA_APLICACION" : {
+                  "type" : "string",
+                  "maxLength" : 3
+                },
+                "IDENTIFICACION_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "DIRECCION_IP_CONSUMIDOR" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "DIRECCION_IP_CLIENTE" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "FECHA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "ATRIBUTO_PAGINEO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "CLAVE_BUSQUEDA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CANTIDAD_REGISTROS" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999
+                }
+              }
+            },
+            "BODY_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "NUMERO_TARJETA_DEBITO" : {
+                  "type" : "string",
+                  "maxLength" : 18
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postHBWENT19_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_HBWENT19" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "TIPO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "MENSAJE_PROGRAMADOR_SISTEMA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_PROGRAMADOR" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "FECHA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                }
+              }
+            },
+            "BODY_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "PRODUCTO" : {
+                  "type" : "array",
+                  "items" : {
+                    "type" : "object",
+                    "properties" : {
+                      "CODIGO_PRODUCTO" : {
+                        "type" : "string",
+                        "maxLength" : 2
+                      },
+                      "NUMERO_PRODUCTO" : {
+                        "type" : "string",
+                        "maxLength" : 20
+                      }
+                    }
+                  },
+                  "maxItems" : 16,
+                  "minItems" : 16
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

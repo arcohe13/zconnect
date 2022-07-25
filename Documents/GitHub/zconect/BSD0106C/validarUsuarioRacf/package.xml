@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zosConnectApi xmlns="http://www.ibm.com/zosConnect/2.0/zosConnectApi" id="validarUsuarioRacf">
+    <apiSpec title="validarUsuarioRacf" basePath="/BSD0106C" description="" version="1.0.0">
+        <path relativePath="/v1/administrativo/validarUsuarioRacf">
+            <method type="POST" zosConnectServiceRef="BSD0106C" httpXformFile="api/v1/administrativo/validarUsuarioRacf/POST/mapping.xml" operationId="postBSD0106C"/>
+        </path>
+        <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
+    </apiSpec>
+</zosConnectApi>

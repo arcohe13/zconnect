@@ -1,0 +1,764 @@
+com.ibm.cics.eclipse.common.runtime_3.0.0.201908281947
+2022/06/08 15:33:50.416 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2022/06/08 15:33:50.566 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.setTrustStorePassphrase()
+2022/06/08 15:33:51.155 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.setTrustStorePassphrase()
+2022/06/08 15:33:51.155 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.setKeyStorePassphrase()
+2022/06/08 15:33:51.164 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.setKeyStorePassphrase()
+2022/06/08 15:33:51.164 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2022/06/08 15:33:51.168 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2022/06/08 15:33:51.168 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/WorkSpace Proyecto Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2022/06/08 15:33:51.175 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@5a8868a3]
+2022/06/08 15:33:51.175 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@e14c5d72]
+2022/06/08 15:33:51.175 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/08 15:33:51.175 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@cba6a58a]
+2022/06/08 15:33:51.177 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/08 15:33:51.177 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/08 15:33:51.177 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/08 15:33:51.178 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/08 15:33:51.178 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/08 15:33:51.178 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@3ce6]
+2022/06/08 15:33:51.178 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/08 15:33:51.178 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/08 15:33:51.321 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@ee47669c]
+2022/06/08 15:33:51.321 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@569b6331]
+2022/06/08 15:33:51.321 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/08 15:33:51.321 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@a19db360]
+2022/06/08 15:33:51.322 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/08 15:33:51.322 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/08 15:33:51.323 VET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@ee47669c com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/08 15:33:51.323 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/08 15:33:51.323 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2022/06/08 15:33:51.323 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2022/06/08 15:33:51.323 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/08 15:33:51.338 VET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2022/06/08 15:33:51.340 VET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/WorkSpace Proyecto Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2022/06/08 15:33:51.342 VET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2022/06/08 15:33:51.342 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/08 15:33:51.342 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/08 15:33:51.342 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@4fe89c19]
+2022/06/08 15:33:51.342 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/08 15:33:51.342 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/08 15:33:51.342 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/08 15:33:51.342 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@2bbe4ccc]
+2022/06/08 15:33:51.342 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/08 15:33:51.343 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@e14dd49e]
+2022/06/08 15:33:51.343 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/08 15:33:51.343 VET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@62f51f86]
+2022/06/08 15:33:51.351 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 15:33:51.351 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 15:33:58.887 VET [33] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@66c84b99]
+2022/06/08 15:33:58.887 VET [33] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2022/06/08 15:33:58.918 VET [33] - com.ibm.cics.zos.model.ZOSConnectable.<init>() [com.ibm.cics.zos.model.ZOSConnectable@67a654e0]
+2022/06/08 15:33:59.747 VET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2022/06/08 15:33:59.747 VET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/08 15:33:59.747 VET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/08 15:33:59.752 VET [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@655cfb28, org.eclipse.ui.internal.WorkbenchWindow@833db75e]
+2022/06/08 15:34:29.297 VET [1] createPartControl com.ibm.cics.core.connections.internal.views.HostConnectionsView.createPartControl()
+2022/06/08 15:34:29.422 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.views.HostConnectionsView$25@e2b65787]
+2022/06/08 15:34:29.422 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/08 15:34:54.160 VET [1] com.ibm.cics.core.ui plugin connection customizers not loaded as plugin absent com.ibm.cics.core.connections.internal.ConnectionCustomizerRegistry.<constructor>()
+2022/06/08 15:34:54.160 VET [1] - com.ibm.cics.core.connections.internal.EditConnectionDialog.ConnectionDialog() [Create_With_Descriptor, com.ibm.zosconnect.ui.connections.type.adminapi]
+2022/06/08 15:35:23.660 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getUnusedLocalId()
+2022/06/08 15:35:23.662 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getUnusedLocalId() [1654716923662-0]
+2022/06/08 15:35:23.662 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.createNewConnectionParameters() [1654716923662-0, ZConnect desarrollo, com.ibm.zosconnect.ui.connections.type.adminapi, {READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false}]
+2022/06/08 15:35:23.662 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654716923662-0]
+2022/06/08 15:35:23.662 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/08 15:35:23.662 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/08 15:35:23.662 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654716923662-0@local]
+2022/06/08 15:35:23.662 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.updateConnectionParameters() [ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654716923662-0@local,
+	name=ZConnect desarrollo
+]]
+2022/06/08 15:35:23.664 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/08 15:35:23.664 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/08 15:35:23.666 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.updateConnectionParameters() [ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654716923662-0@local,
+	name=ZConnect desarrollo
+]]
+2022/06/08 15:35:23.666 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.createNewConnectionParameters() [ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654716923662-0@local,
+	name=ZConnect desarrollo
+]]
+2022/06/08 15:35:23.666 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/08 15:35:23.666 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654716923662-0@local,
+	name=ZConnect desarrollo
+]]]
+2022/06/08 15:35:23.667 VET [1] > com.ibm.cics.core.connections.internal.ConnectionUtils.getInternalId() [1654716923662-0@local]
+2022/06/08 15:35:23.667 VET [1] < com.ibm.cics.core.connections.internal.ConnectionUtils.getInternalId() [1654716923662-0]
+2022/06/08 15:35:23.667 VET [1] > com.ibm.cics.core.connections.internal.WritableConnectionProvider.getExternalId() [1654716923662-0]
+2022/06/08 15:35:23.667 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/08 15:35:23.667 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/08 15:35:23.667 VET [1] < com.ibm.cics.core.connections.internal.WritableConnectionProvider.getExternalId() [1654716923662-0@local]
+2022/06/08 15:35:23.667 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/08 15:35:23.668 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=null, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654716923662-0@local,
+	name=ZConnect desarrollo
+]]]
+2022/06/08 15:35:23.669 VET [1] > com.ibm.cics.core.connections.internal.ConnectionUtils.getInternalId() [1654716923662-0@local]
+2022/06/08 15:35:23.669 VET [1] < com.ibm.cics.core.connections.internal.ConnectionUtils.getInternalId() [1654716923662-0]
+2022/06/08 15:35:23.739 VET [1] > com.ibm.cics.core.connections.internal.ConnectionService.connect() [1654716923662-0@local]
+2022/06/08 15:35:23.742 VET [37] > com.ibm.cics.core.connections.internal.ConnectionService.connect() [configurationId=1654716923662-0@local]
+2022/06/08 15:35:23.742 VET [37] > com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting() [connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@6399c451]
+2022/06/08 15:35:23.742 VET [37] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@34c9af44]
+2022/06/08 15:35:23.742 VET [37] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@34c9af44]
+2022/06/08 15:35:23.742 VET [37] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/08 15:35:23.742 VET [37] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/08 15:35:23.742 VET [37] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@34c9af44]
+2022/06/08 15:35:23.743 VET [37] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/06/08 15:35:23.743 VET [37] < com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting()
+2022/06/08 15:35:23.743 VET [37] > com.ibm.cics.core.connections.internal.ConnectionService.doConnect() [configurationId=1654716923662-0@local]
+2022/06/08 15:35:37.300 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/08 15:35:37.300 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/06/08 15:35:37.357 VET [37] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/08 15:35:37.358 VET [37] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/08 15:35:37.441 VET [37] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/08 15:35:37.442 VET [37] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/08 15:35:38.466 VET [37] > com.ibm.cics.core.connections.internal.ConnectionService.notifyConnected() [connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@6399c451, configuration=com.ibm.cics.core.connections.ConnectionProfile[ZConnect desarrollo (10.0.4.10:7080) ]]
+2022/06/08 15:35:38.466 VET [37] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$ConnectedEvent@dbfa3395]
+2022/06/08 15:35:38.474 VET [37] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectedEvent@dbfa3395]
+2022/06/08 15:35:38.474 VET [37] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/08 15:35:38.474 VET [37] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/06/08 15:35:38.474 VET [37] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectedEvent@dbfa3395]
+2022/06/08 15:35:38.474 VET [37] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/06/08 15:35:38.475 VET [37] < com.ibm.cics.core.connections.internal.ConnectionService.notifyConnected()
+2022/06/08 15:39:34.283 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 15:39:34.283 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 15:41:08.754 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@fa58e9de} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@2ccfdce9} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:41:08.771 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@5cc38a8d} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@881054b0} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:41:54.139 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@709b9b50} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d55b8bf4} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:41:54.143 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@fa8a3504} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@4b85828e} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:42:55.086 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 15:42:55.086 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 15:43:28.179 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@fa0eaa25} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@8ebfedb} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:43:28.183 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@243d2f78} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@a509b3c5} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:46:42.612 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f99b31bd} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@abb6407} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:46:42.617 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@8658f596} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@728b0c8d} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:47:55.689 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@38fc8693} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@48e44c69} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:47:55.694 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@def42489} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bc2ee230} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:51:31.572 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@105a2a72} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@a0e2137a} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:51:31.576 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@9376ec7c} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7a3e1760} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:52:20.212 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@1b672f8b} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b97918d4} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:52:20.217 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@41f5bf34} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f1f71b7f} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 15:56:11.727 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 15:56:11.727 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 16:00:21.219 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e0f64889} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d0cf2ee8} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:00:21.225 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@669851d8} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@71e5b6db} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:00:57.133 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bd58ac2e} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f272dbcc} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:00:57.139 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e3e0ff48} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@cbceed9b} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:01:37.873 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 16:01:37.874 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 16:03:47.213 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 16:03:47.213 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 16:22:54.386 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@ae02b5fe} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@c7809bf6} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:22:54.391 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@224eeabc} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@62b54f40} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:23:14.760 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@3095739e} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bce3b56d} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:23:14.765 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@333a228a} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f9da1610} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:23:25.985 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 16:23:25.985 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 16:25:22.981 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d6169276} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6c73ef09} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:25:22.987 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6c4b55e8} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e1d47c3f} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:25:45.787 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@51b3a63a} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6b92e0ba} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:25:45.794 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@624865ee} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d7371b86} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/08 16:26:10.190 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/08 16:26:10.190 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 10:30:28.937 VET [191] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz.]
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	... 21 more
+java.io.FileNotFoundException: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+2022/06/10 10:31:59.406 VET [191] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz.]
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	... 21 more
+java.io.FileNotFoundException: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+2022/06/10 10:32:14.111 VET [191] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.]
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+2022/06/10 10:32:35.821 VET [191] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz.]
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	... 21 more
+java.io.FileNotFoundException: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+2022/06/10 10:34:24.135 VET [191] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz.]
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	... 21 more
+java.io.FileNotFoundException: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+2022/06/10 10:34:43.820 VET [191] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.]
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+2022/06/10 10:34:56.265 VET [203] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.]
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+2022/06/10 10:35:17.764 VET [203] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua/.]
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+2022/06/10 10:36:59.545 VET [205] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua/.]
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+com.ibm.cics.eclipse.common.runtime_3.0.0.201908281947
+2022/06/10 10:59:17.067 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2022/06/10 10:59:17.632 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 10:59:17.633 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 10:59:17.633 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:59:17.633 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:59:17.633 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:59:17.633 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 10:59:17.679 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2022/06/10 10:59:17.699 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2022/06/10 10:59:17.700 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/WorkSpace Proyecto Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2022/06/10 10:59:17.706 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@8344268d]
+2022/06/10 10:59:17.706 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@d4c27355]
+2022/06/10 10:59:17.707 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 10:59:17.707 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@ed52e25a]
+2022/06/10 10:59:17.749 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654716923662-0]
+2022/06/10 10:59:17.749 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/10 10:59:17.749 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/10 10:59:17.749 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654716923662-0@local]
+2022/06/10 10:59:17.749 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 10:59:17.749 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 10:59:17.750 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 10:59:17.750 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 10:59:17.750 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 10:59:17.750 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@3ce6]
+2022/06/10 10:59:17.750 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 10:59:17.750 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 10:59:17.826 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@f9e0ee6e]
+2022/06/10 10:59:17.826 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@63883fc8]
+2022/06/10 10:59:17.826 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 10:59:17.826 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@d33510ef]
+2022/06/10 10:59:17.827 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 10:59:17.827 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 10:59:17.827 VET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@f9e0ee6e com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 10:59:17.827 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 10:59:17.827 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2022/06/10 10:59:17.827 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2022/06/10 10:59:17.827 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 10:59:17.829 VET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2022/06/10 10:59:17.836 VET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/WorkSpace Proyecto Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2022/06/10 10:59:17.837 VET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2022/06/10 10:59:17.838 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 10:59:17.838 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654716923662-0@local,
+	name=ZConnect desarrollo
+]]]
+2022/06/10 10:59:17.839 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@d312800a]
+2022/06/10 10:59:17.839 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 10:59:17.839 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 10:59:17.839 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/10 10:59:17.839 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@3dc45f9b]
+2022/06/10 10:59:17.839 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 10:59:17.839 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@e8350116]
+2022/06/10 10:59:17.839 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/10 10:59:17.839 VET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@2b1c54c4]
+2022/06/10 10:59:17.852 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 10:59:17.853 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 10:59:21.472 VET [41] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@b026a226]
+2022/06/10 10:59:21.473 VET [41] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2022/06/10 10:59:21.482 VET [41] - com.ibm.cics.zos.model.ZOSConnectable.<init>() [com.ibm.cics.zos.model.ZOSConnectable@d89f0b17]
+2022/06/10 10:59:21.733 VET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2022/06/10 10:59:21.733 VET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/10 10:59:21.733 VET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/10 10:59:21.734 VET [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@da40a660, org.eclipse.ui.internal.WorkbenchWindow@c8d0ddb4]
+2022/06/10 11:00:14.006 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@ba76b82b} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e9480b1} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/10 11:00:14.024 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@94586e9c} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@804f61ae} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/10 11:00:35.864 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@c449f84e} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@204108b6} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/10 11:00:35.871 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@94bfee2b} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@47115ceb} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+com.ibm.cics.eclipse.common.runtime_3.0.0.201908281947
+2022/06/10 11:19:38.955 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2022/06/10 11:19:39.548 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 11:19:39.548 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/06/10 11:19:39.548 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:19:39.548 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:19:39.549 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:19:39.549 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/06/10 11:19:39.642 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2022/06/10 11:19:39.669 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2022/06/10 11:19:39.670 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/WorkSpace Proyecto Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2022/06/10 11:19:39.677 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@7b2dd46e]
+2022/06/10 11:19:39.677 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@7c63d7fc]
+2022/06/10 11:19:39.677 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:19:39.677 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@6bc70296]
+2022/06/10 11:19:39.719 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654716923662-0]
+2022/06/10 11:19:39.719 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/06/10 11:19:39.719 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/06/10 11:19:39.719 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654716923662-0@local]
+2022/06/10 11:19:39.720 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 11:19:39.720 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 11:19:39.720 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 11:19:39.721 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/06/10 11:19:39.721 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 11:19:39.721 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@3ce6]
+2022/06/10 11:19:39.721 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 11:19:39.721 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/06/10 11:19:39.795 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@df735686]
+2022/06/10 11:19:39.795 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@3db8ef19]
+2022/06/10 11:19:39.795 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:19:39.795 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@e74f852d]
+2022/06/10 11:19:39.797 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/06/10 11:19:39.797 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/06/10 11:19:39.797 VET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@df735686 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 11:19:39.797 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/06/10 11:19:39.797 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2022/06/10 11:19:39.797 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2022/06/10 11:19:39.797 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/06/10 11:19:39.798 VET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2022/06/10 11:19:39.805 VET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/WorkSpace Proyecto Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2022/06/10 11:19:39.807 VET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2022/06/10 11:19:39.807 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 11:19:39.807 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654716923662-0@local,
+	name=ZConnect desarrollo
+]]]
+2022/06/10 11:19:39.808 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@e1f3b248]
+2022/06/10 11:19:39.809 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:19:39.809 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/06/10 11:19:39.809 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/06/10 11:19:39.809 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@31b0ebc5]
+2022/06/10 11:19:39.809 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/06/10 11:19:39.809 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@d9e1c50c]
+2022/06/10 11:19:39.809 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/06/10 11:19:39.809 VET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@2fa0d0b6]
+2022/06/10 11:19:39.818 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 11:19:39.818 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/06/10 11:19:43.804 VET [37] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@777e8919]
+2022/06/10 11:19:43.804 VET [37] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2022/06/10 11:19:44.330 VET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2022/06/10 11:19:44.330 VET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/10 11:19:44.331 VET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/06/10 11:19:44.352 VET [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@da79cb4e, org.eclipse.ui.internal.WorkbenchWindow@76b30211]
+2022/06/10 11:19:44.636 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@8cbc3854} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@9d4e169b} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2022/06/10 11:19:44.672 VET [1] Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@997032f6} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@666c5b8b} com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+com.ibm.cics.eclipse.common.runtime_3.0.0.201908281947
+2022/07/11 16:34:12.230 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.passphrase.secure_storage]
+2022/07/11 16:34:13.520 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/07/11 16:34:13.520 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getKeyStorePassphrase()
+2022/07/11 16:34:13.520 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/07/11 16:34:13.520 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/07/11 16:34:13.520 VET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/07/11 16:34:13.520 VET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/07/11 16:34:13.585 VET [1] ? com.ibm.cics.eclipse.common.SecurePreferencesPasswordStorage.getSecureUrl() [workspace has blanks in it which would mangle the location. Prefer if user specified different workspace, file:/C:/WorkSpace%20Proyecto%20Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.eclipse.common/com.ibm.cics.core.connections.secure_storage]
+2022/07/11 16:34:13.614 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2022/07/11 16:34:13.614 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/WorkSpace Proyecto Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2022/07/11 16:34:13.632 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@ae6ef751]
+2022/07/11 16:34:13.632 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@788356e1]
+2022/07/11 16:34:13.632 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/07/11 16:34:13.632 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@23cb0a09]
+2022/07/11 16:34:13.760 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654716923662-0]
+2022/07/11 16:34:13.760 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getId()
+2022/07/11 16:34:13.760 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getId() [local]
+2022/07/11 16:34:13.760 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getExternalId() [1654716923662-0@local]
+2022/07/11 16:34:13.761 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/07/11 16:34:13.761 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/07/11 16:34:13.762 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/07/11 16:34:13.762 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2022/07/11 16:34:13.762 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/07/11 16:34:13.762 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@3ce6]
+2022/07/11 16:34:13.762 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/07/11 16:34:13.762 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@3ce7]
+2022/07/11 16:34:14.292 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@2eb5a760]
+2022/07/11 16:34:14.292 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@7817c5fd]
+2022/07/11 16:34:14.292 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/07/11 16:34:14.292 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@17d0f620]
+2022/07/11 16:34:14.293 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 Aceptar null]
+2022/07/11 16:34:14.293 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2022/07/11 16:34:14.293 VET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@2eb5a760 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/07/11 16:34:14.293 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2022/07/11 16:34:14.293 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2022/07/11 16:34:14.293 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2022/07/11 16:34:14.293 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2022/07/11 16:34:14.362 VET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2022/07/11 16:34:14.374 VET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/WorkSpace Proyecto Zconnect/GPP5114P/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2022/07/11 16:34:14.378 VET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2022/07/11 16:34:14.378 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/07/11 16:34:14.378 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2022/07/11 16:34:14.378 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@9af36ac5]
+2022/07/11 16:34:14.379 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/07/11 16:34:14.379 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2022/07/11 16:34:14.379 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[ConnectionParameters [
+	attributes={READ_TIMEOUT=30000, ALLOW_MULTIPLE_CONNECTIONS=, port=7080, host=10.0.4.10, CONNECT_TIMEOUT=30000, ssl_confirmed=true, ATTEMPT_SECURE=false},
+	connectionTypeId=com.ibm.zosconnect.ui.connections.type.adminapi,
+	id=1654716923662-0@local,
+	name=ZConnect desarrollo
+]]]
+2022/07/11 16:34:14.380 VET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@a74d42eb]
+2022/07/11 16:34:14.380 VET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2022/07/11 16:34:14.380 VET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@f5e841cf]
+2022/07/11 16:34:14.380 VET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2022/07/11 16:34:14.380 VET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@5e749173]
+2022/07/11 16:34:14.399 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/07/11 16:34:14.399 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2022/07/11 16:34:27.700 VET [29] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@bbf99b00]
+2022/07/11 16:34:27.714 VET [29] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2022/07/11 16:34:28.286 VET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2022/07/11 16:34:28.286 VET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/07/11 16:34:28.286 VET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2022/07/11 16:34:28.293 VET [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@379b6f0e, org.eclipse.ui.internal.WorkbenchWindow@bbf9dba2]
+2022/07/11 16:34:31.659 VET [38] > com.ibm.cics.core.connections.internal.ConnectionService.connect() [configurationId=1654716923662-0@local]
+2022/07/11 16:34:31.659 VET [38] > com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting() [connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@3db951c6]
+2022/07/11 16:34:31.659 VET [38] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@d27f29a2]
+2022/07/11 16:34:31.662 VET [38] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@d27f29a2]
+2022/07/11 16:34:31.662 VET [38] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/07/11 16:34:31.662 VET [38] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/07/11 16:34:31.662 VET [38] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$ConnectingEvent@d27f29a2]
+2022/07/11 16:34:31.663 VET [38] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/07/11 16:34:31.663 VET [38] < com.ibm.cics.core.connections.internal.ConnectionService.notifyConnecting()
+2022/07/11 16:34:31.663 VET [38] > com.ibm.cics.core.connections.internal.ConnectionService.doConnect() [configurationId=1654716923662-0@local]
+2022/07/11 16:34:31.698 VET [38] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/07/11 16:34:31.698 VET [38] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/07/11 16:34:31.795 VET [38] > com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/07/11 16:34:31.795 VET [38] < com.ibm.cics.core.connections.internal.PassphraseManager.getTrustStorePassphrase()
+2022/07/11 16:34:32.639 VET [38] > com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/07/11 16:34:32.639 VET [38] < com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/07/11 16:34:32.703 VET [1] > com.ibm.cics.core.connections.internal.ConnectionService.disconnect() [com.ibm.zosconnect.ui.connections.category.adminapi]
+2022/07/11 16:34:32.703 VET [1] - com.ibm.cics.core.connections.internal.ConnectionService.disconnect() [false]
+2022/07/11 16:34:32.717 VET [1] > com.ibm.cics.core.connections.internal.ConnectionService.notifyDisconnected() [ConnectionCategory[z/OS Connect Enterprise Edition], connectable=com.ibm.zosconnect.ui.connections.models.ZCeeAdminApiConnectable@3db951c6, configuration=com.ibm.cics.core.connections.ConnectionProfile[ZConnect desarrollo (10.0.4.10:7080) ]]
+2022/07/11 16:34:32.717 VET [1] > com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners() [event=com.ibm.cics.core.connections.ConnectionServiceListener$DisconnectedEvent@b971914]
+2022/07/11 16:34:32.718 VET [1] - com.ibm.cics.core.connections.internal.ConnectionService.disconnected() [null]
+2022/07/11 16:34:32.718 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$DisconnectedEvent@b971914]
+2022/07/11 16:34:32.718 VET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/07/11 16:34:32.718 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.setState() [NO_CONNECTION]
+2022/07/11 16:34:32.718 VET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.event() [com.ibm.cics.core.connections.ConnectionServiceListener$DisconnectedEvent@b971914]
+2022/07/11 16:34:32.738 VET [1] < com.ibm.cics.core.connections.internal.ConnectionService.notifyListeners()
+2022/07/11 16:34:32.738 VET [1] < com.ibm.cics.core.connections.internal.ConnectionService.notifyDisconnected()
+2022/07/11 16:34:32.768 VET [38] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized]
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+

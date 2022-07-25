@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zosConnectApi xmlns="http://www.ibm.com/zosConnect/2.0/zosConnectApi" id="consultarTablaBancosAmpliada">
+    <apiSpec title="consultarTablaBancosAmpliada" basePath="/BTR050DC" description="Servicio: Tablas_persona&#xD;&#xA;Metodo: consultar_Tabla_Bancos_Ampliada" version="1.0.0">
+        <path relativePath="/v1/safe/consultarTablaBancosAmpliada">
+            <method type="POST" zosConnectServiceRef="BTR050DC" operationId="postBTR050DC"/>
+        </path>
+        <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
+    </apiSpec>
+</zosConnectApi>

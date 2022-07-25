@@ -1,0 +1,91 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "",
+    "version" : "1.0.0",
+    "title" : "GestionarClaves"
+  },
+  "host" : "10.0.4.10:7080",
+  "basePath" : "/bsd0321c",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/v01/gestionarclaves" : {
+      "post" : {
+        "tags" : [ "GestionarClaves" ],
+        "operationId" : "postBSD0321C",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "postBSD0321C_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postBSD0321C_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postBSD0321C_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "postBSD0321C_request" : {
+      "type" : "object",
+      "properties" : {
+        "BSD0321C" : {
+          "type" : "object",
+          "properties" : {
+            "BODY_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "ACCION" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "CLAVE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postBSD0321C_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "BSD0321C" : {
+          "type" : "object",
+          "properties" : {
+            "BODY_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "CODIGO_RETORNO" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<zosConnectApi xmlns="http://www.ibm.com/zosConnect/2.0/zosConnectApi" id="validarProductosCuentasDeposito">
+    <apiSpec title="validarProductosCuentasDeposito" basePath="/HBWENT19" description="Validar los productos de cuentas de depositos" version="1.0.0">
+        <path relativePath="/v1/administrativo/validarProductosCuentasDeposito">
+            <method type="POST" zosConnectServiceRef="HBWENT19" httpXformFile="api/v1/administrativo/validarProductosCuentasDeposito/POST/mapping.xml" operationId="postHBWENT19"/>
+        </path>
+        <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
+    </apiSpec>
+</zosConnectApi>

@@ -1,0 +1,111 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "",
+    "version" : "1.0.0",
+    "title" : "validarUsuarioRacf"
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/BSD0106C",
+  "schemes" : [ "https", "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/v1/administrativo/validarUsuarioRacf" : {
+      "post" : {
+        "tags" : [ "validarUsuarioRacf" ],
+        "operationId" : "postBSD0106C",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "postBSD0106C_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postBSD0106C_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postBSD0106C_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "postBSD0106C_request" : {
+      "type" : "object",
+      "properties" : {
+        "BSD0106C" : {
+          "type" : "object",
+          "properties" : {
+            "BODY_ENTRADA_RACF" : {
+              "type" : "object",
+              "properties" : {
+                "CODIGO_APLICACION" : {
+                  "type" : "string",
+                  "maxLength" : 2
+                },
+                "IDENTIFICACION_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "CLAVE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "NUEVA_CLAVE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "RECURSO" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postBSD0106C_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "BSD0106C" : {
+          "type" : "object",
+          "properties" : {
+            "BODY_SALIDA_RACF" : {
+              "type" : "object",
+              "properties" : {
+                "CODIGO_RETORNO" : {
+                  "type" : "string",
+                  "maxLength" : 2
+                },
+                "PROFILE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "NOMBRE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "USO_FUTURO" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

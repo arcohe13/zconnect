@@ -1,0 +1,562 @@
+!SESSION 2022-06-08 15:33:18.766 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-06-08 15:35:38.469
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:41:08.751
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@fa58e9de} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@2ccfdce9}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:41:08.768
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@5cc38a8d} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@881054b0}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:41:54.136
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@709b9b50} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d55b8bf4}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:41:54.141
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@fa8a3504} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@4b85828e}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:43:28.176
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@fa0eaa25} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@8ebfedb}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:43:28.181
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@243d2f78} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@a509b3c5}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:46:42.609
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f99b31bd} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@abb6407}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:46:42.614
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@8658f596} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@728b0c8d}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:47:55.686
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@38fc8693} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@48e44c69}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:47:55.691
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@def42489} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bc2ee230}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:51:31.569
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@105a2a72} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@a0e2137a}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:51:31.573
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@9376ec7c} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@7a3e1760}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:52:20.209
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@1b672f8b} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b97918d4}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 15:52:20.214
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@41f5bf34} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f1f71b7f}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:00:21.215
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e0f64889} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d0cf2ee8}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:00:21.221
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@669851d8} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@71e5b6db}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:00:57.128
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bd58ac2e} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f272dbcc}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:00:57.135
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e3e0ff48} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@cbceed9b}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:22:54.382
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@ae02b5fe} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@c7809bf6}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:22:54.388
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@224eeabc} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@62b54f40}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:23:14.756
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@3095739e} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@bce3b56d}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:23:14.761
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@333a228a} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@f9da1610}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:25:22.977
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d6169276} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6c73ef09}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:25:22.983
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6c4b55e8} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e1d47c3f}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:25:45.783
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@51b3a63a} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@6b92e0ba}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-08 16:25:45.788
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@624865ee} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@d7371b86}
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-06-10 10:30:28.903
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	... 21 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1200 2022-06-10 10:30:28.904
+!MESSAGE No se ha encontrado el artefacto: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz.
+!STACK 0
+java.io.FileNotFoundException: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-06-10 10:31:59.396
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	... 21 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1200 2022-06-10 10:31:59.397
+!MESSAGE No se ha encontrado el artefacto: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz.
+!STACK 0
+java.io.FileNotFoundException: http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-06-10 10:32:14.106
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-06-10 10:32:14.107
+!MESSAGE No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-06-10 10:32:35.816
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	... 21 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1200 2022-06-10 10:32:35.817
+!MESSAGE No se ha encontrado el artefacto: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz.
+!STACK 0
+java.io.FileNotFoundException: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/apa/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-06-10 10:34:24.075
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado el artefacto: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.FileNotFoundException: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	... 21 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1200 2022-06-10 10:34:24.075
+!MESSAGE No se ha encontrado el artefacto: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz.
+!STACK 0
+java.io.FileNotFoundException: https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/zosconnect/update.site/content.xml.xz
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:297)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:480)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:437)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.readInto(FileReader.java:360)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:101)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:156)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:402)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:56)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:78)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-06-10 10:34:43.810
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-06-10 10:34:43.811
+!MESSAGE No se ha encontrado ningún repositorio en https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-06-10 10:34:56.260
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:166)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:106)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:122)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:57)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:668)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-06-10 10:34:56.260
+!MESSAGE No se ha encontrado ningún repositorio en https://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua3.1/rtc-6.x/update.site.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-06-10 10:35:17.759
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-06-10 10:35:17.759
+!MESSAGE No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua/.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-06-10 10:36:59.534
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:653)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-06-10 10:36:59.535
+!MESSAGE No se ha encontrado ningún repositorio en http://public.dhe.ibm.com/ibmdl/export/pub/software/htp/zos/tools/aqua/.
+!SESSION 2022-06-10 10:58:52.115 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:00:14.000
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@ba76b82b} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@e9480b1}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:00:14.019
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@94586e9c} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@804f61ae}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:00:35.859
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@c449f84e} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@204108b6}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:00:35.867
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@94bfee2b} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@47115ceb}
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-06-10 11:00:53.526
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+!SESSION 2022-06-10 11:19:21.429 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:19:44.631
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@8cbc3854} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@9d4e169b}
+
+!ENTRY org.eclipse.ui 4 4 2022-06-10 11:19:44.667
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@997032f6} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@666c5b8b}
+!SESSION 2022-06-10 11:58:15.705 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-06-10 11:58:51.400
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+!SESSION 2022-07-11 16:33:31.998 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.zosconnect.ui.common 4 0 2022-07-11 16:34:32.728
+!MESSAGE 401, Unauthorized
+!STACK 0
+com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:606)
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.api.ZosConnectAdminApi.getApiDocs(ZosConnectAdminApi.java:665)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.getAdminApiSwagger(ZCeeAdminApiConnection.java:568)
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:592)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiException: 401, Unauthorized
+	at com.ibm.zosconnect.ui.swagger.clients.adminapi.invoker.ApiClient.invokeAPI(ApiClient.java:596)
+	... 8 more
+
+!ENTRY com.ibm.cics.core.connections 2 2 2022-07-11 16:34:32.831
+!MESSAGE IZE0106E Connect failed with error "Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ZConnect desarrollo" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host." (ZConnect desarrollo)
+!STACK 0
+com.ibm.cics.core.comm.AuthenticationException: Se ha producido un error de seguridad para la conexión de z/OS Connect EE "ZConnect desarrollo" (10.0.4.10:7080): 401 Unauthorized. Verifique que la conexión de z/OS Connect EE se haya configurado con las credenciales de seguridad correctas en la vista Conexiones de host.
+	at com.ibm.zosconnect.ui.connections.types.ZCeeAdminApiConnection.connect(ZCeeAdminApiConnection.java:605)
+	at com.ibm.cics.core.connections.internal.ConnectionService.doConnect(ConnectionService.java:634)
+	at com.ibm.cics.core.connections.internal.ConnectionService.connect(ConnectionService.java:546)
+	at com.ibm.zosconnect.ui.common.connections.AdminApiConnectionUtil.doConnect(AdminApiConnectionUtil.java:61)
+	at com.ibm.zosconnect.ui.jobs.ConnectJob.run(ConnectJob.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-07-11 16:34:45.709
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595

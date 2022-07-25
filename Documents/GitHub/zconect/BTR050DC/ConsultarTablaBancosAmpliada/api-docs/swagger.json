@@ -1,0 +1,344 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "Servicio: Tablas_persona\r\nMetodo: consultar_Tabla_Bancos_Ampliada",
+    "version" : "1.0.0",
+    "title" : "consultarTablaBancosAmpliada"
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/BTR050DC",
+  "schemes" : [ "https", "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/v1/safe/consultarTablaBancosAmpliada" : {
+      "post" : {
+        "tags" : [ "consultarTablaBancosAmpliada" ],
+        "operationId" : "postBTR050DC",
+        "parameters" : [ {
+          "name" : "Authorization",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "postBTR050DC_request",
+          "description" : "request body",
+          "required" : true,
+          "schema" : {
+            "$ref" : "#/definitions/postBTR050DC_request"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "$ref" : "#/definitions/postBTR050DC_response_200"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "postBTR050DC_request" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_BTR050DC" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "IDENTIFICADOR_UNICO_GLOBAL" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "IDENTIFICACION_CANAL" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "SIGLA_APLICACION" : {
+                  "type" : "string",
+                  "maxLength" : 3
+                },
+                "IDENTIFICACION_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "DIRECCION_IP_CONSUMIDOR" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "DIRECCION_IP_CLIENTE" : {
+                  "type" : "string",
+                  "maxLength" : 20
+                },
+                "FECHA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_ENVIO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "ATRIBUTO_PAGINEO" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                },
+                "CLAVE_BUSQUEDA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CANTIDAD_REGISTROS" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999
+                }
+              }
+            },
+            "BODY_ENTRADA" : {
+              "type" : "object",
+              "properties" : {
+                "INDICADOR_TIPO_BUSQUEDA" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "CODIGO_BANCO_BCV" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 9999
+                },
+                "CODIGO_SWIFT" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "CODIGO_ABA" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 999999999
+                },
+                "CODIGO_SUCURSAL" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "INDICADOR_STATUS_BANCO" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "INDICADOR_PIGNORACION_BANCO" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "postBTR050DC_response_200" : {
+      "type" : "object",
+      "properties" : {
+        "COMMAREA_BTR050DC" : {
+          "type" : "object",
+          "properties" : {
+            "HEADER_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "TIPO_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 1
+                },
+                "MENSAJE_PROGRAMADOR_SISTEMA" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_PROGRAMADOR" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 250
+                },
+                "CODIGO_MENSAJE_USUARIO" : {
+                  "type" : "string",
+                  "maxLength" : 4
+                },
+                "FECHA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 8
+                },
+                "HORA_SALIDA_MENSAJE" : {
+                  "type" : "string",
+                  "maxLength" : 10
+                }
+              }
+            },
+            "BODY_SALIDA" : {
+              "type" : "object",
+              "properties" : {
+                "CANTIDAD_REGISTROS_RETORNADOS" : {
+                  "type" : "integer",
+                  "minimum" : 0,
+                  "maximum" : 99
+                },
+                "AREA_PAGINACION" : {
+                  "type" : "string",
+                  "maxLength" : 360
+                },
+                "DETALLE_BANCO" : {
+                  "type" : "array",
+                  "items" : {
+                    "type" : "object",
+                    "properties" : {
+                      "CODIGO_BANCO_BCV" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9999
+                      },
+                      "CODIGO_BANCO_SWIFT" : {
+                        "type" : "string",
+                        "maxLength" : 8
+                      },
+                      "CODIGO_BANCO_ABA" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 999999999
+                      },
+                      "NOMBRE_BANCO" : {
+                        "type" : "string",
+                        "maxLength" : 60
+                      },
+                      "CALLE" : {
+                        "type" : "string",
+                        "maxLength" : 60
+                      },
+                      "CIUDAD" : {
+                        "type" : "string",
+                        "maxLength" : 20
+                      },
+                      "ESTADO" : {
+                        "type" : "string",
+                        "maxLength" : 20
+                      },
+                      "PAIS" : {
+                        "type" : "string",
+                        "maxLength" : 20
+                      },
+                      "DIRECCION_CABLE" : {
+                        "type" : "string",
+                        "maxLength" : 12
+                      },
+                      "CODIGO_POSTAL" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 999999999
+                      },
+                      "NUMERO_TELEFONO_1" : {
+                        "type" : "string",
+                        "maxLength" : 10
+                      },
+                      "NUMERO_TELEFONO_2" : {
+                        "type" : "string",
+                        "maxLength" : 10
+                      },
+                      "NUMERO_TELEX_1" : {
+                        "type" : "string",
+                        "maxLength" : 7
+                      },
+                      "NUMERO_TELEX_2" : {
+                        "type" : "string",
+                        "maxLength" : 7
+                      },
+                      "NUMERO_TELEX_3" : {
+                        "type" : "string",
+                        "maxLength" : 7
+                      },
+                      "CODIGO_CLASIFICACION" : {
+                        "type" : "string",
+                        "maxLength" : 2
+                      },
+                      "NUMERO_CUENTA_MAYOR" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 99999999999
+                      },
+                      "CODIGO_ALA" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9999
+                      },
+                      "NUMERO_PERSONA" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9999999999
+                      },
+                      "CODIGO_MONEDA" : {
+                        "type" : "string",
+                        "maxLength" : 3
+                      },
+                      "INDICADOR_STATUS_BANCO" : {
+                        "type" : "string",
+                        "maxLength" : 1
+                      },
+                      "INDICADOR_OTRA_DIVISA" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9
+                      },
+                      "NUMERO_CARNET_INDICADOR_PARAIS" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9999999999
+                      },
+                      "FECHA_INDICADOR_PARAISO_FISCAL" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 99999999
+                      },
+                      "INDICADOR_PARAISO_FISCAL" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9
+                      },
+                      "NUMERO_CUENTA_BCV" : {
+                        "type" : "string",
+                        "maxLength" : 20
+                      },
+                      "INDICADOR_CONVERSION" : {
+                        "type" : "string",
+                        "maxLength" : 1
+                      },
+                      "NUMERO_CUENTA_PRINCIPAL" : {
+                        "type" : "string",
+                        "maxLength" : 20
+                      },
+                      "INDICADOR_PIGNORACION_BANCO" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9
+                      },
+                      "INDICE_CCE" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9
+                      },
+                      "INDICADOR_SISTEMA_LBTR" : {
+                        "type" : "integer",
+                        "minimum" : 0,
+                        "maximum" : 9
+                      }
+                    }
+                  },
+                  "maxItems" : 40,
+                  "minItems" : 40
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><connections>
+    <type type="com.ibm.zosconnect.ui.connections.type.adminapi">
+        <configID ALLOW_MULTIPLE_CONNECTIONS="" ATTEMPT_SECURE="false" CONNECT_TIMEOUT="30000" READ_TIMEOUT="30000" configID="1658341584066-21" host="10.0.4.10" name="desa" port="7080" ssl_confirmed="true"/>
+    </type>
+</connections>

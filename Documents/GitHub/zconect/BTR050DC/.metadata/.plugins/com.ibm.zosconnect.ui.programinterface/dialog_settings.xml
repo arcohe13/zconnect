@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportDSTranMessageMetadataWizard.STORE_IMPORT_DATA_STRUCTURE_ID">
+		<item value="C:\Users\b123595\Documents\createcb\creat\createcb\copybook\BTR050DC.cpy" key="ImportDSTranMessageMetadataWizard.STORE_LAST_FOLDER_ID"/>
+		<item value="true" key="ImportDSTranMessageMetadataWizard.STORE_LAST_SOURCE_TYPE_ID"/>
+		<item value="Sólo estructuras de datos de COBOL" key="ImportDSTranMessageMetadataWizard.STORE_LAST_SOURCE_LANGUAGE_ID"/>
+		<list key="ImportDSTranMessageMetadataWizardPage.STORE_LOCAL_SOURCE_NAMES_ID">
+			<item value="C:\Users\b123595\Documents\createcb\creat\createcb\copybook"/>
+		</list>
+	</section>
+</section>

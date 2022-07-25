@@ -1,0 +1,25 @@
+!SESSION 2022-07-22 08:59:50.024 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=8.0.5.15 - pwi3280sr5fp15-20180502_01(SR5 FP15)
+JRE 1.8.0 Windows 7 x86-32 20180425_385365 (JIT enabled, AOT enabled)
+OpenJ9   - a7ffbfe
+OMR      - a531219
+IBM      - 59ef3dc
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_VE
+Framework arguments:  -showlocation -pluginCustomization plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86 -showlocation -pluginCustomization plugin_customization.ini
+
+!ENTRY com.ibm.cics.core.connections 1 1 2022-07-22 09:01:57.607
+!MESSAGE IZE0100I Connected to 10.0.4.10:7080 - b123595
+
+!ENTRY org.eclipse.ui 4 4 2022-07-22 09:09:03.928
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@dc1a703} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@a3b4b84f}
+
+!ENTRY org.eclipse.ui 4 4 2022-07-22 09:09:03.997
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@483de915} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@66efe5e}
+
+!ENTRY org.eclipse.ui 4 4 2022-07-22 09:09:22.406
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkFromInputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@b812d920} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@2d2edcd9}
+
+!ENTRY org.eclipse.ui 4 4 2022-07-22 09:09:22.410
+!MESSAGE Conflicting handlers for com.ibm.msl.mapping.ui.QuickLinkToOutputCommand: {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@767c5637} vs {com.ibm.msl.mapping.internal.ui.editor.MappingEditor$10@43c6fa}

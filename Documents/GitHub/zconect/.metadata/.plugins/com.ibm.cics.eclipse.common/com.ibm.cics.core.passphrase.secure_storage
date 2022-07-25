@@ -1,0 +1,7 @@
+#Equinox secure storage version 1.0
+#Fri Jul 22 14:10:39 VET 2022
+org.eclipse.equinox.security.preferences.version=1
+/connections/SHAREABLE_CREDENTIALS/javax.net.ssl.keyStorePassword/javax.net.ssl.keyStorePassword=org.eclipse.equinox.security.noModule\tGPLZb3x92Ts\=,H6xutbfeGDJq+yph27P5sA\=\=
+org.eclipse.equinox.security.preferences.cipher=PBEWithMD5AndDES
+/connections/SHAREABLE_CREDENTIALS/javax.net.ssl.trustStorePassword/javax.net.ssl.trustStorePassword=org.eclipse.equinox.security.noModule\tFE0jumWyqV0\=,hz4vXIeudJ4lKCYzcrB34g\=\=
+org.eclipse.equinox.security.preferences.keyFactory=PBEWithMD5AndDES
